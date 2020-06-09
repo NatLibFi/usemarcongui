@@ -1,0 +1,1909 @@
+LazarusResources.Add('TMainForm','FORMDATA',[
+  'TPF0'#9'TMainForm'#8'MainForm'#4'Left'#3'w'#1#6'Height'#3'V'#2#3'Top'#2'j'#5
+  +'Width'#3#134#3#18'HorzScrollBar.Page'#3')'#3#18'VertScrollBar.Page'#3'D'#2#7
+  +'Caption'#6#13'USEMARCON GUI'#12'ClientHeight'#3'V'#2#11'ClientWidth'#3#134#3
+  +#21'Constraints.MinHeight'#3#150#0#20'Constraints.MinWidth'#3#200#0#9'Icon.D'
+  +'ata'#10#194#12#0#0#190#12#0#0#0#0#1#0#1#0'  '#0#0#1#0#24#0#168#12#0#0#22#0#0
+  +#0'('#0#0#0' '#0#0#0'@'#0#0#0#1#0#24#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#0#0
+  +#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#0#0#255#0#0#255#255#0#230#255#0#230#255#0#230#0#0#255#0
+  +#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0
+  +#255#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0
+  +#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0
+  +#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#0#0#255#0#0#255#255#0#230#255#0#230#0#0#255#0#0#255#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0
+  +#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0
+  +#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230
+  +#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255
+  +#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230#255#0
+  +#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230
+  +#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230
+  +#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30#30#30
+  ,#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230
+  +#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230
+  +#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255
+  +#0#230#255#0#230#255#0#230#255#0#230#0#0#255#0#0#255#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#255#0#230#255#0#230
+  +#255#0#230#0#0#255#0#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255#0#230#255#0
+  +#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#0#0#255#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#255#0#230#255#0#230#0#0#255#0#0
+  +#255#0#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#0#0#255#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#0#0#255
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#0#0#255#0#0#255#255#0#230#255#0#230#255#0#230#0#0#255#0#0
+  +#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#0#0#255#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0
+  +#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255
+  +#0#230#255#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255
+  +#0#230#255#0#230#255#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#255#0#230#255#0#230#255
+  +#0#230#255#0#230#255#0#230#0#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#255#0#230#255#0#230#255#0
+  +#230#0#0#255#0#0#255#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#0#0#255#0#0#255#0#0#255#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  ,#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30#30
+  +#30#30#30#30#30#30#30#30#30#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#254
+  +'?'#255#255#248#15#255#255#240#7#255'?'#240#7#252#15#224#3#248#7#224#3#248#7
+  +#224#3#240#3#240#7#240#3#240#7#248#3#248#15#248#7#254'?'#252#7#255#255#255#31
+  +#227#255#255#255#128#255#255#255#128#255#255#255#0#127#255#255#0#127#255#255
+  +#0#127#255#255#128#255#255#255#128#255#255#255#227#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#10'KeyPreview'#9#4'Menu'#7#9'Ma'
+  +'inMenu1'#10'OnActivate'#7#12'FormActivate'#8'OnCreate'#7#14'MainFormCreate'
+  +#9'OnDestroy'#7#15'MainFormDestroy'#10'OnKeyPress'#7#16'MainFormKeyPress'#8
+  +'OnResize'#7#14'MainFormResize'#10'OnShortCut'#7#16'MainFormShortCut'#8'Show'
+  +'Hint'#9#10'LCLVersion'#6#7'2.0.8.0'#0#6'TPanel'#8'PanelTop'#4'Left'#2#0#6'H'
+  +'eight'#2'Z'#3'Top'#2#0#5'Width'#3#134#3#5'Align'#7#5'alTop'#10'BevelOuter'#7
+  +#6'bvNone'#12'ClientHeight'#2'Z'#11'ClientWidth'#3#134#3#11'FullRepaint'#8#14
+  +'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#2#0#6'TLabel'#15'LabelConvers'
+  +'ion'#4'Left'#3#206#0#6'Height'#2#16#3'Top'#2#6#5'Width'#3#184#0#7'Caption'#6
+  +#26'USEMARCON Conversion (INI)'#11'ParentColor'#8#0#0#6'TLabel'#15'LabelOutp'
+  +'utFile'#4'Left'#3'^'#2#6'Height'#2#16#3'Top'#2#6#5'Width'#2'C'#7'Caption'#6
+  +#11'Output File'#11'ParentColor'#8#0#0#6'TLabel'#14'LabelInputFile'#4'Left'#2
+  +#8#6'Height'#2#16#3'Top'#2#6#5'Width'#2'8'#7'Caption'#6#10'Input File'#11'Pa'
+  +'rentColor'#8#0#0#6'TLabel'#6'Label1'#4'Left'#3#150#1#6'Height'#2#16#3'Top'#2
+  +#6#5'Width'#3#138#0#7'Caption'#6#17'USEMARCON Program'#11'ParentColor'#8#0#0
+  +#6'TLabel'#10'LabelRecNr'#4'Left'#3'H'#1#6'Height'#2#16#3'Top'#2'='#5'Width'
+  +#2'+'#7'Caption'#6#6'Record'#6'Layout'#7#8'tlCenter'#11'ParentColor'#8#0#0#6
+  +'TBevel'#6'Bevel1'#4'Left'#2#0#6'Height'#2#2#3'Top'#2'X'#5'Width'#3#134#3#5
+  +'Align'#7#8'alBottom'#0#0#6'TBevel'#6'Bevel2'#4'Left'#2#0#6'Height'#2#2#3'To'
+  +'p'#2#0#5'Width'#3#134#3#5'Align'#7#5'alTop'#0#0#6'TLabel'#6'Label3'#4'Left'
+  +#3'@'#2#6'Height'#2#16#3'Top'#2'='#5'Width'#2#26#7'Caption'#6#4'Find'#6'Layo'
+  +'ut'#7#8'tlCenter'#11'ParentColor'#8#0#0#6'TLabel'#10'LabelMatch'#4'Left'#3
+  +'#'#3#6'Height'#2#21#3'Top'#2'8'#5'Width'#2'G'#8'AutoSize'#8#6'Layout'#7#8't'
+  +'lCenter'#11'ParentColor'#8#0#0#13'TFileNameEdit'#17'FileNameEditInput'#4'Le'
+  +'ft'#2#8#6'Height'#2#22#4'Hint'#6'*Press Enter in this field to load the fil'
+  +'e'#3'Top'#2#24#5'Width'#3#166#0#16'OnAcceptFileName'#7#31'FileNameEditInput'
+  +'AcceptFileName'#13'DialogOptions'#11#15'ofFileMustExist'#14'ofEnableSizing'
+  +#0#11'FilterIndex'#2#0#15'HideDirectories'#8#11'ButtonWidth'#2#23#9'NumGlyph'
+  +'s'#2#1#9'MaxLength'#2#0#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0
+  +#10'OnKeyPress'#7#25'FileNameEditInputKeyPress'#0#0#13'TFileNameEdit'#22'Fil'
+  +'eNameEditConversion'#4'Left'#3#206#0#6'Height'#2#22#3'Top'#2#24#5'Width'#3
+  +#164#0#13'DialogOptions'#11#15'ofPathMustExist'#0#6'Filter'#6'+INI Files (*.'
+  +'ini)|*.ini|All Files (*.*)|*.*'#11'FilterIndex'#2#0#15'HideDirectories'#8#11
+  +'ButtonWidth'#2#23#9'NumGlyphs'#2#1#9'MaxLength'#2#0#8'TabOrder'#2#1#8'OnCha'
+  +'nge'#7#28'FileNameEditConversionChange'#0#0#13'TFileNameEdit'#18'FileNameEd'
+  +'itOutput'#4'Left'#3'^'#2#6'Height'#2#22#4'Hint'#6'*Press Enter in this fiel'
+  +'d to load the file'#3'Top'#2#24#5'Width'#3#164#0#16'OnAcceptFileName'#7' Fi'
+  +'leNameEditOutputAcceptFileName'#10'DialogKind'#7#6'dkSave'#13'DialogOptions'
+  +#11#14'ofHideReadOnly'#15'ofPathMustExist'#14'ofEnableSizing'#0#11'FilterInd'
+  +'ex'#2#0#15'HideDirectories'#8#11'ButtonWidth'#2#23#9'NumGlyphs'#2#1#9'MaxLe'
+  +'ngth'#2#0#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#3#10'OnKeyPress'
+  +#7#26'FileNameEditOutputKeyPress'#0#0#7'TBitBtn'#13'BitBtnConvert'#4'Left'#2
+  +#8#6'Height'#2#25#4'Hint'#6#14'Run Conversion'#3'Top'#2'6'#5'Width'#2'^'#25
+  +'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#3'Run'#7'OnClick'#7#18'BitBtnCo'
+  +'nvertClick'#8'TabOrder'#2#4#0#0#7'TBitBtn'#10'BitBtnStop'#4'Left'#2'p'#6'He'
+  +'ight'#2#25#4'Hint'#6#15'Stop Conversion'#3'Top'#2'6'#5'Width'#2'^'#25'Borde'
+  +'rSpacing.InnerBorder'#2#2#7'Caption'#6#5'&Stop'#7'Enabled'#8#7'OnClick'#7#15
+  +'BitBtnStopClick'#8'TabOrder'#2#5#0#0#13'TFileNameEdit'#21'FileNameEditUSEMA'
+  +'RCON'#4'Left'#3#150#1#6'Height'#2#22#3'Top'#2#24#5'Width'#3#168#0#13'Dialog'
+  +'Options'#11#15'ofFileMustExist'#0#6'Filter'#6'-Executables (*.exe)|*.exe|Al'
+  +'l Files (*.*)|*.*'#11'FilterIndex'#2#0#15'HideDirectories'#8#11'ButtonWidth'
+  +#2#23#9'NumGlyphs'#2#1#9'MaxLength'#2#0#8'TabOrder'#2#2#0#0#5'TEdit'#9'EditR'
+  +'ecNr'#4'Left'#3'v'#1#6'Height'#2#22#4'Hint'#6'FShows current record. Change'
+  +' and press Enter to move to another record'#3'Top'#2'8'#5'Width'#2':'#13'On'
+  +'EditingDone'#7#20'EditRecNrEditingDone'#10'OnKeyPress'#7#17'EditRecNrKeyPre'
+  +'ss'#8'TabOrder'#2#7#0#0#7'TBitBtn'#14'BitBtnPrevious'#4'Left'#3#208#1#6'Hei'
+  +'ght'#2#25#4'Hint'#6#15'Previous Record'#3'Top'#2'6'#5'Width'#2#24#25'Border'
+  ,'Spacing.InnerBorder'#2#2#7'Caption'#6#2'<<'#9'OnKeyDown'#7#21'BitBtnPreviou'
+  +'sKeyDown'#7'OnKeyUp'#7#19'BitBtnPreviousKeyUp'#11'OnMouseDown'#7#23'BitBtnP'
+  +'reviousMouseDown'#9'OnMouseUp'#7#21'BitBtnPreviousMouseUp'#8'TabOrder'#2#9#0
+  +#0#7'TBitBtn'#10'BitBtnNext'#4'Left'#3#232#1#6'Height'#2#25#4'Hint'#6#11'Nex'
+  +'t Record'#3'Top'#2'6'#5'Width'#2#24#25'BorderSpacing.InnerBorder'#2#2#7'Cap'
+  +'tion'#6#2'>>'#9'OnKeyDown'#7#17'BitBtnNextKeyDown'#7'OnKeyUp'#7#15'BitBtnNe'
+  +'xtKeyUp'#11'OnMouseDown'#7#19'BitBtnNextMouseDown'#9'OnMouseUp'#7#17'BitBtn'
+  +'NextMouseUp'#8'TabOrder'#2#10#0#0#5'TEdit'#8'EditFind'#4'Left'#3'^'#2#6'Hei'
+  +'ght'#2#22#4'Hint'#6'tWildcards: ? = one character, * = multiple characters.'
+  +' Example: 245 *hello. Start with / to use regular expressions.'#3'Top'#2'8'
+  +#5'Width'#2'k'#8'OnChange'#7#14'EditFindChange'#10'OnKeyPress'#7#16'EditFind'
+  +'KeyPress'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#12#0#0#7'TBitBtn'
+  +#10'BitBtnFind'#4'Left'#3#208#2#6'Height'#2#25#3'Top'#2'6'#5'Width'#2'K'#25
+  +'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#5'&Find'#7'Enabled'#8#7'OnClick'
+  +#7#15'BitBtnFindClick'#8'TabOrder'#2#13#0#0#7'TBitBtn'#18'BitBtnEditRuleFile'
+  +#4'Left'#3#216#0#6'Height'#2#25#3'Top'#2'6'#5'Width'#2'h'#25'BorderSpacing.I'
+  +'nnerBorder'#2#2#7'Caption'#6#18'&Edit Rule File...'#7'Enabled'#8#7'OnClick'
+  +#7#23'BitBtnEditRuleFileClick'#8'TabOrder'#2#6#0#0#7'TBitBtn'#11'BitBtnFirst'
+  +#4'Left'#3#184#1#6'Height'#2#25#4'Hint'#6#12'First Record'#3'Top'#2'6'#5'Wid'
+  +'th'#2#24#25'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#2'|<'#7'OnClick'#7
+  +#16'BitBtnFirstClick'#8'TabOrder'#2#8#0#0#7'TBitBtn'#10'BitBtnLast'#4'Left'#3
+  +#0#2#6'Height'#2#25#4'Hint'#6#11'Last Record'#3'Top'#2'6'#5'Width'#2#24#25'B'
+  +'orderSpacing.InnerBorder'#2#2#7'Caption'#6#2'>|'#7'OnClick'#7#15'BitBtnLast'
+  +'Click'#8'TabOrder'#2#11#0#0#0#6'TPanel'#10'PanelFiles'#4'Left'#2#0#6'Height'
+  +#3'/'#1#3'Top'#2'Z'#5'Width'#3#134#3#5'Align'#7#8'alClient'#10'BevelOuter'#7
+  +#6'bvNone'#12'ClientHeight'#3'/'#1#11'ClientWidth'#3#134#3#11'FullRepaint'#8
+  +#8'TabOrder'#2#0#0#6'TPanel'#10'PanelInput'#4'Left'#2#0#6'Height'#3'/'#1#3'T'
+  +'op'#2#0#5'Width'#3#26#1#5'Align'#7#6'alLeft'#10'BevelOuter'#7#6'bvNone'#12
+  +'ClientHeight'#3'/'#1#11'ClientWidth'#3#26#1#11'FullRepaint'#8#8'TabOrder'#2
+  +#0#0#6'TPanel'#6'Panel4'#4'Left'#2#0#6'Height'#2#22#3'Top'#2#0#5'Width'#3#26
+  +#1#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#7'Caption'#6#19'Input File'
+  +' Contents'#11'FullRepaint'#8#8'TabOrder'#2#1#0#0#244#8'TSynEdit'#12'SynEdit'
+  +'Input'#4'Left'#2#0#6'Height'#3#25#1#3'Top'#2#22#5'Width'#3#26#1#5'Align'#7#8
+  +'alClient'#12'Font.CharSet'#2#4#11'Font.Height'#2#243#9'Font.Name'#6#14'Luci'
+  +'da Console'#10'Font.Pitch'#7#7'fpFixed'#12'Font.Quality'#7#16'fqNonAntialia'
+  +'sed'#11'ParentColor'#8#10'ParentFont'#8#8'TabOrder'#2#0#7'OnClick'#7#17'Syn'
+  +'EditInputClick'#10'OnDblClick'#7#17'SynEditInputClick'#23'BookMarkOptions.X'
+  +'offset'#2#238#15'Gutter.AutoSize'#8#14'Gutter.Visible'#8#12'Gutter.Width'#2
+  +#0#19'Gutter.MouseActions'#14#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cd'
+  +'Down'#7'Command'#7#20'emcOnMainGutterClick'#0#1#6'Button'#7#7'mbRight'#7'Co'
+  +'mmand'#7#14'emcContextMenu'#0#0#17'RightGutter.Width'#2#0#24'RightGutter.Mo'
+  +'useActions'#14#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Comman'
+  +'d'#7#20'emcOnMainGutterClick'#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14'em'
+  +'cContextMenu'#0#0#10'Keystrokes'#14#1#7'Command'#7#4'ecUp'#8'ShortCut'#2'&'
+  +#0#1#7'Command'#7#7'ecSelUp'#8'ShortCut'#3'& '#0#1#7'Command'#7#10'ecScrollU'
+  +'p'#8'ShortCut'#3'&@'#0#1#7'Command'#7#6'ecDown'#8'ShortCut'#2'('#0#1#7'Comm'
+  +'and'#7#9'ecSelDown'#8'ShortCut'#3'( '#0#1#7'Command'#7#12'ecScrollDown'#8'S'
+  +'hortCut'#3'(@'#0#1#7'Command'#7#6'ecLeft'#8'ShortCut'#2'%'#0#1#7'Command'#7
+  +#9'ecSelLeft'#8'ShortCut'#3'% '#0#1#7'Command'#7#10'ecWordLeft'#8'ShortCut'#3
+  +'%@'#0#1#7'Command'#7#13'ecSelWordLeft'#8'ShortCut'#3'%`'#0#1#7'Command'#7#7
+  +'ecRight'#8'ShortCut'#2''''#0#1#7'Command'#7#10'ecSelRight'#8'ShortCut'#3''''
+  +' '#0#1#7'Command'#7#11'ecWordRight'#8'ShortCut'#3'''@'#0#1#7'Command'#7#14
+  +'ecSelWordRight'#8'ShortCut'#3'''`'#0#1#7'Command'#7#10'ecPageDown'#8'ShortC'
+  +'ut'#2'"'#0#1#7'Command'#7#13'ecSelPageDown'#8'ShortCut'#3'" '#0#1#7'Command'
+  +#7#12'ecPageBottom'#8'ShortCut'#3'"@'#0#1#7'Command'#7#15'ecSelPageBottom'#8
+  +'ShortCut'#3'"`'#0#1#7'Command'#7#8'ecPageUp'#8'ShortCut'#2'!'#0#1#7'Command'
+  +#7#11'ecSelPageUp'#8'ShortCut'#3'! '#0#1#7'Command'#7#9'ecPageTop'#8'ShortCu'
+  +'t'#3'!@'#0#1#7'Command'#7#12'ecSelPageTop'#8'ShortCut'#3'!`'#0#1#7'Command'
+  +#7#11'ecLineStart'#8'ShortCut'#2'$'#0#1#7'Command'#7#14'ecSelLineStart'#8'Sh'
+  +'ortCut'#3'$ '#0#1#7'Command'#7#11'ecEditorTop'#8'ShortCut'#3'$@'#0#1#7'Comm'
+  +'and'#7#14'ecSelEditorTop'#8'ShortCut'#3'$`'#0#1#7'Command'#7#9'ecLineEnd'#8
+  +'ShortCut'#2'#'#0#1#7'Command'#7#12'ecSelLineEnd'#8'ShortCut'#3'# '#0#1#7'Co'
+  +'mmand'#7#14'ecEditorBottom'#8'ShortCut'#3'#@'#0#1#7'Command'#7#17'ecSelEdit'
+  +'orBottom'#8'ShortCut'#3'#`'#0#1#7'Command'#7#12'ecToggleMode'#8'ShortCut'#2
+  ,'-'#0#1#7'Command'#7#6'ecCopy'#8'ShortCut'#3'-@'#0#1#7'Command'#7#7'ecPaste'
+  +#8'ShortCut'#3'- '#0#1#7'Command'#7#12'ecDeleteChar'#8'ShortCut'#2'.'#0#1#7
+  +'Command'#7#5'ecCut'#8'ShortCut'#3'. '#0#1#7'Command'#7#16'ecDeleteLastChar'
+  +#8'ShortCut'#2#8#0#1#7'Command'#7#16'ecDeleteLastChar'#8'ShortCut'#3#8' '#0#1
+  +#7'Command'#7#16'ecDeleteLastWord'#8'ShortCut'#3#8'@'#0#1#7'Command'#7#6'ecU'
+  +'ndo'#8'ShortCut'#4#8#128#0#0#0#1#7'Command'#7#6'ecRedo'#8'ShortCut'#4#8#160
+  +#0#0#0#1#7'Command'#7#11'ecLineBreak'#8'ShortCut'#2#13#0#1#7'Command'#7#11'e'
+  +'cSelectAll'#8'ShortCut'#3'A@'#0#1#7'Command'#7#6'ecCopy'#8'ShortCut'#3'C@'#0
+  +#1#7'Command'#7#13'ecBlockIndent'#8'ShortCut'#3'I`'#0#1#7'Command'#7#11'ecLi'
+  +'neBreak'#8'ShortCut'#3'M@'#0#1#7'Command'#7#12'ecInsertLine'#8'ShortCut'#3
+  +'N@'#0#1#7'Command'#7#12'ecDeleteWord'#8'ShortCut'#3'T@'#0#1#7'Command'#7#15
+  +'ecBlockUnindent'#8'ShortCut'#3'U`'#0#1#7'Command'#7#7'ecPaste'#8'ShortCut'#3
+  +'V@'#0#1#7'Command'#7#5'ecCut'#8'ShortCut'#3'X@'#0#1#7'Command'#7#12'ecDelet'
+  +'eLine'#8'ShortCut'#3'Y@'#0#1#7'Command'#7#11'ecDeleteEOL'#8'ShortCut'#3'Y`'
+  +#0#1#7'Command'#7#6'ecUndo'#8'ShortCut'#3'Z@'#0#1#7'Command'#7#6'ecRedo'#8'S'
+  +'hortCut'#3'Z`'#0#1#7'Command'#7#13'ecGotoMarker0'#8'ShortCut'#3'0@'#0#1#7'C'
+  +'ommand'#7#13'ecGotoMarker1'#8'ShortCut'#3'1@'#0#1#7'Command'#7#13'ecGotoMar'
+  +'ker2'#8'ShortCut'#3'2@'#0#1#7'Command'#7#13'ecGotoMarker3'#8'ShortCut'#3'3@'
+  +#0#1#7'Command'#7#13'ecGotoMarker4'#8'ShortCut'#3'4@'#0#1#7'Command'#7#13'ec'
+  +'GotoMarker5'#8'ShortCut'#3'5@'#0#1#7'Command'#7#13'ecGotoMarker6'#8'ShortCu'
+  +'t'#3'6@'#0#1#7'Command'#7#13'ecGotoMarker7'#8'ShortCut'#3'7@'#0#1#7'Command'
+  +#7#13'ecGotoMarker8'#8'ShortCut'#3'8@'#0#1#7'Command'#7#13'ecGotoMarker9'#8
+  +'ShortCut'#3'9@'#0#1#7'Command'#7#12'ecSetMarker0'#8'ShortCut'#3'0`'#0#1#7'C'
+  +'ommand'#7#12'ecSetMarker1'#8'ShortCut'#3'1`'#0#1#7'Command'#7#12'ecSetMarke'
+  +'r2'#8'ShortCut'#3'2`'#0#1#7'Command'#7#12'ecSetMarker3'#8'ShortCut'#3'3`'#0
+  +#1#7'Command'#7#12'ecSetMarker4'#8'ShortCut'#3'4`'#0#1#7'Command'#7#12'ecSet'
+  +'Marker5'#8'ShortCut'#3'5`'#0#1#7'Command'#7#12'ecSetMarker6'#8'ShortCut'#3
+  +'6`'#0#1#7'Command'#7#12'ecSetMarker7'#8'ShortCut'#3'7`'#0#1#7'Command'#7#12
+  +'ecSetMarker8'#8'ShortCut'#3'8`'#0#1#7'Command'#7#12'ecSetMarker9'#8'ShortCu'
+  +'t'#3'9`'#0#1#7'Command'#7#14'ecNormalSelect'#8'ShortCut'#3'N`'#0#1#7'Comman'
+  +'d'#7#14'ecColumnSelect'#8'ShortCut'#3'C`'#0#1#7'Command'#7#12'ecLineSelect'
+  +#8'ShortCut'#3'L`'#0#1#7'Command'#7#14'ecMatchBracket'#8'ShortCut'#3'B`'#0#0
+  +#12'MouseActions'#14#1#9'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6
+  +'cdDown'#7'Command'#7#18'emcStartSelections'#9'MoveCaret'#9#0#1#5'Shift'#11#7
+  +'ssShift'#0#9'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7
+  +'Command'#7#18'emcStartSelections'#9'MoveCaret'#9#6'Option'#2#1#0#1#5'Shift'
+  +#11#5'ssAlt'#0#9'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'
+  +#7'Command'#7#24'emcStartColumnSelections'#9'MoveCaret'#9#0#1#5'Shift'#11#7
+  +'ssShift'#5'ssAlt'#0#9'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'c'
+  +'dDown'#7'Command'#7#24'emcStartColumnSelections'#9'MoveCaret'#9#6'Option'#2
+  +#1#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14'emcContextMenu'#0#1#10'ClickCo'
+  +'unt'#7#8'ccDouble'#8'ClickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectWord'#9
+  +'MoveCaret'#9#0#1#10'ClickCount'#7#8'ccTriple'#8'ClickDir'#7#6'cdDown'#7'Com'
+  +'mand'#7#13'emcSelectLine'#9'MoveCaret'#9#0#1#10'ClickCount'#7#6'ccQuad'#8'C'
+  +'lickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectPara'#9'MoveCaret'#9#0#1#6'Bu'
+  +'tton'#7#8'mbMiddle'#8'ClickDir'#7#6'cdDown'#7'Command'#7#17'emcPasteSelecti'
+  +'on'#9'MoveCaret'#9#0#1#5'Shift'#11#6'ssCtrl'#0#9'ShiftMask'#11#7'ssShift'#5
+  +'ssAlt'#6'ssCtrl'#0#7'Command'#7#12'emcMouseLink'#0#0#16'MouseTextActions'#14
+  +#0#15'MouseSelActions'#14#1#8'ClickDir'#7#6'cdDown'#7'Command'#7#16'emcStart'
+  +'DragMove'#0#0#11'MaxLeftChar'#3#0'('#19'VisibleSpecialChars'#11#8'vscSpace'
+  +#12'vscTabAtLast'#0#8'ReadOnly'#9#26'SelectedColor.BackPriority'#2'2'#26'Sel'
+  +'ectedColor.ForePriority'#2'2'#27'SelectedColor.FramePriority'#2'2'#26'Selec'
+  +'tedColor.BoldPriority'#2'2'#28'SelectedColor.ItalicPriority'#2'2'#31'Select'
+  +'edColor.UnderlinePriority'#2'2'#31'SelectedColor.StrikeOutPriority'#2'2'#21
+  +'BracketHighlightStyle'#7#8'sbhsBoth'#28'BracketMatchColor.Background'#7#6'c'
+  +'lNone'#28'BracketMatchColor.Foreground'#7#6'clNone'#23'BracketMatchColor.St'
+  +'yle'#11#6'fsBold'#0#26'FoldedCodeColor.Background'#7#6'clNone'#26'FoldedCod'
+  +'eColor.Foreground'#7#6'clGray'#26'FoldedCodeColor.FrameColor'#7#6'clGray'#25
+  +'MouseLinkColor.Background'#7#6'clNone'#25'MouseLinkColor.Foreground'#7#6'cl'
+  +'Blue'#29'LineHighlightColor.Background'#7#6'clNone'#29'LineHighlightColor.F'
+  +'oreground'#7#6'clNone'#18'OnCommandProcessed'#7#28'SynEditInputCommandProce'
+  +'ssed'#14'OnStatusChange'#7#24'SynEditInputStatusChange'#0#244#18'TSynGutter'
+  +'PartList'#0#0#15'TSynGutterMarks'#0#5'Width'#2#24#12'MouseActions'#14#0#0#0
+  +#20'TSynGutterLineNumber'#0#5'Width'#2#17#12'MouseActions'#14#0#21'MarkupInf'
+  ,'o.Background'#7#9'clBtnFace'#21'MarkupInfo.Foreground'#7#6'clNone'#10'Digit'
+  +'Count'#2#2#30'ShowOnlyLineNumbersMultiplesOf'#2#1#9'ZeroStart'#8#12'Leading'
+  +'Zeros'#8#0#0#17'TSynGutterChanges'#0#5'Width'#2#4#12'MouseActions'#14#0#13
+  +'ModifiedColor'#4#252#233#0#0#10'SavedColor'#7#7'clGreen'#0#0#19'TSynGutterS'
+  +'eparator'#0#5'Width'#2#2#12'MouseActions'#14#0#21'MarkupInfo.Background'#7#7
+  +'clWhite'#21'MarkupInfo.Foreground'#7#6'clGray'#0#0#21'TSynGutterCodeFolding'
+  +#0#5'Width'#2#0#12'MouseActions'#14#1#6'Button'#7#7'mbRight'#7'Command'#7#22
+  +'emcCodeFoldContextMenu'#0#1#9'ShiftMask'#11#7'ssShift'#0#6'Button'#7#8'mbMi'
+  +'ddle'#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emc'
+  +'CodeFoldCollaps'#0#1#5'Shift'#11#7'ssShift'#0#9'ShiftMask'#11#7'ssShift'#0#6
+  +'Button'#7#8'mbMiddle'#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'C'
+  +'ommand'#7#18'emcCodeFoldCollaps'#6'Option'#2#1#0#1#10'ClickCount'#7#5'ccAny'
+  +#8'ClickDir'#7#6'cdDown'#7'Command'#7#7'emcNone'#0#0#21'MarkupInfo.Backgroun'
+  +'d'#7#6'clNone'#21'MarkupInfo.Foreground'#7#6'clGray'#20'MouseActionsExpande'
+  +'d'#14#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'e'
+  +'mcCodeFoldCollaps'#0#0#21'MouseActionsCollapsed'#14#1#5'Shift'#11#6'ssCtrl'
+  +#0#9'ShiftMask'#11#6'ssCtrl'#0#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdD'
+  +'own'#7'Command'#7#17'emcCodeFoldExpand'#0#1#9'ShiftMask'#11#6'ssCtrl'#0#10
+  +'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#17'emcCodeFoldE'
+  +'xpand'#6'Option'#2#1#0#0#0#0#0#0#0#9'TSplitter'#9'Splitter1'#4'Left'#3#26#1
+  +#6'Height'#3'/'#1#3'Top'#2#0#5'Width'#2#5#8'AutoSnap'#8#7'Beveled'#9#0#0#6'T'
+  +'Panel'#11'PanelOutput'#4'Left'#3#31#1#6'Height'#3'/'#1#3'Top'#2#0#5'Width'#3
+  +'g'#2#5'Align'#7#8'alClient'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3'/'
+  +#1#11'ClientWidth'#3'g'#2#11'FullRepaint'#8#8'TabOrder'#2#1#0#6'TPanel'#6'Pa'
+  +'nel5'#4'Left'#2#0#6'Height'#2#22#3'Top'#2#0#5'Width'#3'g'#2#5'Align'#7#5'al'
+  +'Top'#10'BevelOuter'#7#6'bvNone'#7'Caption'#6#20'Output File Contents'#11'Fu'
+  +'llRepaint'#8#8'TabOrder'#2#1#0#0#244#8'TSynEdit'#13'SynEditOutput'#4'Left'#2
+  +#0#6'Height'#3#25#1#3'Top'#2#22#5'Width'#3'g'#2#5'Align'#7#8'alClient'#12'Fo'
+  +'nt.CharSet'#2#4#11'Font.Height'#2#243#9'Font.Name'#6#14'Lucida Console'#10
+  +'Font.Pitch'#7#7'fpFixed'#12'Font.Quality'#7#16'fqNonAntialiased'#11'ParentC'
+  +'olor'#8#10'ParentFont'#8#8'TabOrder'#2#0#7'OnClick'#7#18'SynEditOutputClick'
+  +#10'OnDblClick'#7#18'SynEditOutputClick'#23'BookMarkOptions.Xoffset'#2#238#15
+  +'Gutter.AutoSize'#8#14'Gutter.Visible'#8#12'Gutter.Width'#2#0#19'Gutter.Mous'
+  +'eActions'#14#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'
+  +#7#20'emcOnMainGutterClick'#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14'emcCo'
+  +'ntextMenu'#0#0#17'RightGutter.Width'#2#0#24'RightGutter.MouseActions'#14#1
+  +#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#20'emcOnMain'
+  +'GutterClick'#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14'emcContextMenu'#0#0
+  +#10'Keystrokes'#14#1#7'Command'#7#4'ecUp'#8'ShortCut'#2'&'#0#1#7'Command'#7#7
+  +'ecSelUp'#8'ShortCut'#3'& '#0#1#7'Command'#7#10'ecScrollUp'#8'ShortCut'#3'&@'
+  +#0#1#7'Command'#7#6'ecDown'#8'ShortCut'#2'('#0#1#7'Command'#7#9'ecSelDown'#8
+  +'ShortCut'#3'( '#0#1#7'Command'#7#12'ecScrollDown'#8'ShortCut'#3'(@'#0#1#7'C'
+  +'ommand'#7#6'ecLeft'#8'ShortCut'#2'%'#0#1#7'Command'#7#9'ecSelLeft'#8'ShortC'
+  +'ut'#3'% '#0#1#7'Command'#7#10'ecWordLeft'#8'ShortCut'#3'%@'#0#1#7'Command'#7
+  +#13'ecSelWordLeft'#8'ShortCut'#3'%`'#0#1#7'Command'#7#7'ecRight'#8'ShortCut'
+  +#2''''#0#1#7'Command'#7#10'ecSelRight'#8'ShortCut'#3''' '#0#1#7'Command'#7#11
+  +'ecWordRight'#8'ShortCut'#3'''@'#0#1#7'Command'#7#14'ecSelWordRight'#8'Short'
+  +'Cut'#3'''`'#0#1#7'Command'#7#10'ecPageDown'#8'ShortCut'#2'"'#0#1#7'Command'
+  +#7#13'ecSelPageDown'#8'ShortCut'#3'" '#0#1#7'Command'#7#12'ecPageBottom'#8'S'
+  +'hortCut'#3'"@'#0#1#7'Command'#7#15'ecSelPageBottom'#8'ShortCut'#3'"`'#0#1#7
+  +'Command'#7#8'ecPageUp'#8'ShortCut'#2'!'#0#1#7'Command'#7#11'ecSelPageUp'#8
+  +'ShortCut'#3'! '#0#1#7'Command'#7#9'ecPageTop'#8'ShortCut'#3'!@'#0#1#7'Comma'
+  +'nd'#7#12'ecSelPageTop'#8'ShortCut'#3'!`'#0#1#7'Command'#7#11'ecLineStart'#8
+  +'ShortCut'#2'$'#0#1#7'Command'#7#14'ecSelLineStart'#8'ShortCut'#3'$ '#0#1#7
+  +'Command'#7#11'ecEditorTop'#8'ShortCut'#3'$@'#0#1#7'Command'#7#14'ecSelEdito'
+  +'rTop'#8'ShortCut'#3'$`'#0#1#7'Command'#7#9'ecLineEnd'#8'ShortCut'#2'#'#0#1#7
+  +'Command'#7#12'ecSelLineEnd'#8'ShortCut'#3'# '#0#1#7'Command'#7#14'ecEditorB'
+  +'ottom'#8'ShortCut'#3'#@'#0#1#7'Command'#7#17'ecSelEditorBottom'#8'ShortCut'
+  +#3'#`'#0#1#7'Command'#7#12'ecToggleMode'#8'ShortCut'#2'-'#0#1#7'Command'#7#6
+  +'ecCopy'#8'ShortCut'#3'-@'#0#1#7'Command'#7#7'ecPaste'#8'ShortCut'#3'- '#0#1
+  +#7'Command'#7#12'ecDeleteChar'#8'ShortCut'#2'.'#0#1#7'Command'#7#5'ecCut'#8
+  +'ShortCut'#3'. '#0#1#7'Command'#7#16'ecDeleteLastChar'#8'ShortCut'#2#8#0#1#7
+  +'Command'#7#16'ecDeleteLastChar'#8'ShortCut'#3#8' '#0#1#7'Command'#7#16'ecDe'
+  +'leteLastWord'#8'ShortCut'#3#8'@'#0#1#7'Command'#7#6'ecUndo'#8'ShortCut'#4#8
+  ,#128#0#0#0#1#7'Command'#7#6'ecRedo'#8'ShortCut'#4#8#160#0#0#0#1#7'Command'#7
+  +#11'ecLineBreak'#8'ShortCut'#2#13#0#1#7'Command'#7#11'ecSelectAll'#8'ShortCu'
+  +'t'#3'A@'#0#1#7'Command'#7#6'ecCopy'#8'ShortCut'#3'C@'#0#1#7'Command'#7#13'e'
+  +'cBlockIndent'#8'ShortCut'#3'I`'#0#1#7'Command'#7#11'ecLineBreak'#8'ShortCut'
+  +#3'M@'#0#1#7'Command'#7#12'ecInsertLine'#8'ShortCut'#3'N@'#0#1#7'Command'#7
+  +#12'ecDeleteWord'#8'ShortCut'#3'T@'#0#1#7'Command'#7#15'ecBlockUnindent'#8'S'
+  +'hortCut'#3'U`'#0#1#7'Command'#7#7'ecPaste'#8'ShortCut'#3'V@'#0#1#7'Command'
+  +#7#5'ecCut'#8'ShortCut'#3'X@'#0#1#7'Command'#7#12'ecDeleteLine'#8'ShortCut'#3
+  +'Y@'#0#1#7'Command'#7#11'ecDeleteEOL'#8'ShortCut'#3'Y`'#0#1#7'Command'#7#6'e'
+  +'cUndo'#8'ShortCut'#3'Z@'#0#1#7'Command'#7#6'ecRedo'#8'ShortCut'#3'Z`'#0#1#7
+  +'Command'#7#13'ecGotoMarker0'#8'ShortCut'#3'0@'#0#1#7'Command'#7#13'ecGotoMa'
+  +'rker1'#8'ShortCut'#3'1@'#0#1#7'Command'#7#13'ecGotoMarker2'#8'ShortCut'#3'2'
+  +'@'#0#1#7'Command'#7#13'ecGotoMarker3'#8'ShortCut'#3'3@'#0#1#7'Command'#7#13
+  +'ecGotoMarker4'#8'ShortCut'#3'4@'#0#1#7'Command'#7#13'ecGotoMarker5'#8'Short'
+  +'Cut'#3'5@'#0#1#7'Command'#7#13'ecGotoMarker6'#8'ShortCut'#3'6@'#0#1#7'Comma'
+  +'nd'#7#13'ecGotoMarker7'#8'ShortCut'#3'7@'#0#1#7'Command'#7#13'ecGotoMarker8'
+  +#8'ShortCut'#3'8@'#0#1#7'Command'#7#13'ecGotoMarker9'#8'ShortCut'#3'9@'#0#1#7
+  +'Command'#7#12'ecSetMarker0'#8'ShortCut'#3'0`'#0#1#7'Command'#7#12'ecSetMark'
+  +'er1'#8'ShortCut'#3'1`'#0#1#7'Command'#7#12'ecSetMarker2'#8'ShortCut'#3'2`'#0
+  +#1#7'Command'#7#12'ecSetMarker3'#8'ShortCut'#3'3`'#0#1#7'Command'#7#12'ecSet'
+  +'Marker4'#8'ShortCut'#3'4`'#0#1#7'Command'#7#12'ecSetMarker5'#8'ShortCut'#3
+  +'5`'#0#1#7'Command'#7#12'ecSetMarker6'#8'ShortCut'#3'6`'#0#1#7'Command'#7#12
+  +'ecSetMarker7'#8'ShortCut'#3'7`'#0#1#7'Command'#7#12'ecSetMarker8'#8'ShortCu'
+  +'t'#3'8`'#0#1#7'Command'#7#12'ecSetMarker9'#8'ShortCut'#3'9`'#0#1#7'Command'
+  +#7#14'ecNormalSelect'#8'ShortCut'#3'N`'#0#1#7'Command'#7#14'ecColumnSelect'#8
+  +'ShortCut'#3'C`'#0#1#7'Command'#7#12'ecLineSelect'#8'ShortCut'#3'L`'#0#1#7'C'
+  +'ommand'#7#14'ecMatchBracket'#8'ShortCut'#3'B`'#0#0#12'MouseActions'#14#1#9
+  +'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#18
+  +'emcStartSelections'#9'MoveCaret'#9#0#1#5'Shift'#11#7'ssShift'#0#9'ShiftMask'
+  +#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcStartSe'
+  +'lections'#9'MoveCaret'#9#6'Option'#2#1#0#1#5'Shift'#11#5'ssAlt'#0#9'ShiftMa'
+  +'sk'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#24'emcSta'
+  +'rtColumnSelections'#9'MoveCaret'#9#0#1#5'Shift'#11#7'ssShift'#5'ssAlt'#0#9
+  +'ShiftMask'#11#7'ssShift'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#24
+  +'emcStartColumnSelections'#9'MoveCaret'#9#6'Option'#2#1#0#1#6'Button'#7#7'mb'
+  +'Right'#7'Command'#7#14'emcContextMenu'#0#1#10'ClickCount'#7#8'ccDouble'#8'C'
+  +'lickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectWord'#9'MoveCaret'#9#0#1#10'C'
+  +'lickCount'#7#8'ccTriple'#8'ClickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectL'
+  +'ine'#9'MoveCaret'#9#0#1#10'ClickCount'#7#6'ccQuad'#8'ClickDir'#7#6'cdDown'#7
+  +'Command'#7#13'emcSelectPara'#9'MoveCaret'#9#0#1#6'Button'#7#8'mbMiddle'#8'C'
+  +'lickDir'#7#6'cdDown'#7'Command'#7#17'emcPasteSelection'#9'MoveCaret'#9#0#1#5
+  +'Shift'#11#6'ssCtrl'#0#9'ShiftMask'#11#7'ssShift'#5'ssAlt'#6'ssCtrl'#0#7'Com'
+  +'mand'#7#12'emcMouseLink'#0#0#16'MouseTextActions'#14#0#15'MouseSelActions'
+  +#14#1#8'ClickDir'#7#6'cdDown'#7'Command'#7#16'emcStartDragMove'#0#0#11'MaxLe'
+  +'ftChar'#3#0'('#19'VisibleSpecialChars'#11#8'vscSpace'#12'vscTabAtLast'#0#8
+  +'ReadOnly'#9#26'SelectedColor.BackPriority'#2'2'#26'SelectedColor.ForePriori'
+  +'ty'#2'2'#27'SelectedColor.FramePriority'#2'2'#26'SelectedColor.BoldPriority'
+  +#2'2'#28'SelectedColor.ItalicPriority'#2'2'#31'SelectedColor.UnderlinePriori'
+  +'ty'#2'2'#31'SelectedColor.StrikeOutPriority'#2'2'#21'BracketHighlightStyle'
+  +#7#8'sbhsBoth'#28'BracketMatchColor.Background'#7#6'clNone'#28'BracketMatchC'
+  +'olor.Foreground'#7#6'clNone'#23'BracketMatchColor.Style'#11#6'fsBold'#0#26
+  +'FoldedCodeColor.Background'#7#6'clNone'#26'FoldedCodeColor.Foreground'#7#6
+  +'clGray'#26'FoldedCodeColor.FrameColor'#7#6'clGray'#25'MouseLinkColor.Backgr'
+  +'ound'#7#6'clNone'#25'MouseLinkColor.Foreground'#7#6'clBlue'#29'LineHighligh'
+  +'tColor.Background'#7#6'clNone'#29'LineHighlightColor.Foreground'#7#6'clNone'
+  +#18'OnCommandProcessed'#7#29'SynEditOutputCommandProcessed'#14'OnStatusChang'
+  +'e'#7#25'SynEditOutputStatusChange'#0#244#18'TSynGutterPartList'#0#0#15'TSyn'
+  +'GutterMarks'#0#5'Width'#2#24#12'MouseActions'#14#0#0#0#20'TSynGutterLineNum'
+  +'ber'#0#5'Width'#2#17#12'MouseActions'#14#0#21'MarkupInfo.Background'#7#9'cl'
+  +'BtnFace'#21'MarkupInfo.Foreground'#7#6'clNone'#10'DigitCount'#2#2#30'ShowOn'
+  +'lyLineNumbersMultiplesOf'#2#1#9'ZeroStart'#8#12'LeadingZeros'#8#0#0#17'TSyn'
+  +'GutterChanges'#0#5'Width'#2#4#12'MouseActions'#14#0#13'ModifiedColor'#4#252
+  +#233#0#0#10'SavedColor'#7#7'clGreen'#0#0#19'TSynGutterSeparator'#0#5'Width'#2
+  +#2#12'MouseActions'#14#0#21'MarkupInfo.Background'#7#7'clWhite'#21'MarkupInf'
+  ,'o.Foreground'#7#6'clGray'#0#0#21'TSynGutterCodeFolding'#0#5'Width'#2#0#12'M'
+  +'ouseActions'#14#1#6'Button'#7#7'mbRight'#7'Command'#7#22'emcCodeFoldContext'
+  +'Menu'#0#1#9'ShiftMask'#11#7'ssShift'#0#6'Button'#7#8'mbMiddle'#10'ClickCoun'
+  +'t'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcCodeFoldCollaps'#0
+  +#1#5'Shift'#11#7'ssShift'#0#9'ShiftMask'#11#7'ssShift'#0#6'Button'#7#8'mbMid'
+  +'dle'#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcC'
+  +'odeFoldCollaps'#6'Option'#2#1#0#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6
+  +'cdDown'#7'Command'#7#7'emcNone'#0#0#21'MarkupInfo.Background'#7#6'clNone'#21
+  +'MarkupInfo.Foreground'#7#6'clGray'#20'MouseActionsExpanded'#14#1#10'ClickCo'
+  +'unt'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcCodeFoldCollaps'
+  +#0#0#21'MouseActionsCollapsed'#14#1#5'Shift'#11#6'ssCtrl'#0#9'ShiftMask'#11#6
+  +'ssCtrl'#0#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#17
+  +'emcCodeFoldExpand'#0#1#9'ShiftMask'#11#6'ssCtrl'#0#10'ClickCount'#7#5'ccAny'
+  +#8'ClickDir'#7#6'cdDown'#7'Command'#7#17'emcCodeFoldExpand'#6'Option'#2#1#0#0
+  +#0#0#0#0#0#0#9'TSplitter'#9'Splitter2'#6'Cursor'#7#8'crVSplit'#4'Left'#2#0#6
+  +'Height'#2#5#3'Top'#3#137#1#5'Width'#3#134#3#5'Align'#7#8'alBottom'#8'AutoSn'
+  +'ap'#8#7'Beveled'#9#12'ResizeAnchor'#7#8'akBottom'#0#0#6'TPanel'#11'PanelBot'
+  +'tom'#4'Left'#2#0#6'Height'#3#200#0#3'Top'#3#142#1#5'Width'#3#134#3#5'Align'
+  +#7#8'alBottom'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#3#200#0#11'Client'
+  +'Width'#3#134#3#11'FullRepaint'#8#8'TabOrder'#2#1#0#6'TPanel'#14'PanelBottom'
+  +'Top'#4'Left'#2#0#6'Height'#2'J'#3'Top'#2#0#5'Width'#3#134#3#5'Align'#7#5'al'
+  +'Top'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2'J'#11'ClientWidth'#3#134
+  +#3#11'FullRepaint'#8#8'TabOrder'#2#0#0#6'TLabel'#10'Label2UTF8'#4'Left'#2#8#6
+  +'Height'#2#16#3'Top'#2#27#5'Width'#2'b'#7'Caption'#6#13'Decoded UTF-8'#11'Pa'
+  +'rentColor'#8#0#0#6'TPanel'#17'PanelResultsTitle'#4'Left'#2#0#6'Height'#2#24
+  +#3'Top'#2'2'#5'Width'#3#134#3#5'Align'#7#8'alBottom'#10'BevelOuter'#7#6'bvNo'
+  +'ne'#7'Caption'#6'DConversion Results (double-click an error to show it in R'
+  +'ule Editor)'#12'ClientHeight'#2#24#11'ClientWidth'#3#134#3#11'FullRepaint'#8
+  +#8'TabOrder'#2#4#0#6'TBevel'#6'Bevel3'#4'Left'#2#0#6'Height'#2#2#3'Top'#2#0#5
+  +'Width'#3#134#3#5'Align'#7#5'alTop'#0#0#0#9'TCheckBox'#25'CheckBoxSynchronou'
+  +'sScroll'#4'Left'#2#9#6'Height'#2#18#3'Top'#2#4#5'Width'#3#241#0#7'Caption'#6
+  +'%Scroll Input and Output Synchronously'#7'Checked'#9#5'State'#7#9'cbChecked'
+  +#8'TabOrder'#2#0#0#0#9'TCheckBox'#22'CheckBoxSplitSubfields'#4'Left'#3'X'#1#6
+  +'Height'#2#18#3'Top'#2#4#5'Width'#3#195#0#7'Caption'#6'!Split subfields to m'
+  +'ultiple lines'#8'OnChange'#7#28'CheckBoxSplitSubfieldsChange'#8'TabOrder'#2
+  +#1#0#0#5'TEdit'#15'EditDecodedUTF8'#4'Left'#2'x'#6'Height'#2#24#3'Top'#2#22#5
+  +'Width'#3#4#3#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#11'Font.Height'#2
+  +#245#9'Font.Name'#6#16'Arial Unicode MS'#10'ParentFont'#8#8'ReadOnly'#9#8'Ta'
+  +'bOrder'#2#3#0#0#9'TCheckBox'#22'CheckBoxUTF8Autodetect'#4'Left'#3#144#2#6'H'
+  +'eight'#2#18#3'Top'#2#4#5'Width'#3#142#0#7'Caption'#6#19'UTF-8 Autodetection'
+  +#7'Checked'#9#8'OnChange'#7#28'CheckBoxUTF8AutodetectChange'#5'State'#7#9'cb'
+  +'Checked'#8'TabOrder'#2#2#0#0#0#244#8'TSynEdit'#14'SynEditResults'#4'Left'#2
+  +#0#6'Height'#2'l'#3'Top'#2'J'#5'Width'#3#134#3#5'Align'#7#8'alClient'#11'Fon'
+  +'t.Height'#2#243#9'Font.Name'#6#14'Lucida Console'#10'Font.Pitch'#7#7'fpFixe'
+  +'d'#12'Font.Quality'#7#16'fqNonAntialiased'#11'ParentColor'#8#10'ParentFont'
+  +#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#10'OnDblClick'#7#22'Sy'
+  +'nEditResultsDblClick'#23'BookMarkOptions.Xoffset'#2#238#15'Gutter.AutoSize'
+  +#8#14'Gutter.Visible'#8#12'Gutter.Width'#2#0#19'Gutter.MouseActions'#14#1#10
+  +'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#20'emcOnMainGut'
+  +'terClick'#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14'emcContextMenu'#0#0#17
+  +'RightGutter.Width'#2#0#24'RightGutter.MouseActions'#14#1#10'ClickCount'#7#5
+  +'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#20'emcOnMainGutterClick'#0#1#6
+  +'Button'#7#7'mbRight'#7'Command'#7#14'emcContextMenu'#0#0#10'Keystrokes'#14#1
+  +#7'Command'#7#4'ecUp'#8'ShortCut'#2'&'#0#1#7'Command'#7#7'ecSelUp'#8'ShortCu'
+  +'t'#3'& '#0#1#7'Command'#7#10'ecScrollUp'#8'ShortCut'#3'&@'#0#1#7'Command'#7
+  +#6'ecDown'#8'ShortCut'#2'('#0#1#7'Command'#7#9'ecSelDown'#8'ShortCut'#3'( '#0
+  +#1#7'Command'#7#12'ecScrollDown'#8'ShortCut'#3'(@'#0#1#7'Command'#7#6'ecLeft'
+  +#8'ShortCut'#2'%'#0#1#7'Command'#7#9'ecSelLeft'#8'ShortCut'#3'% '#0#1#7'Comm'
+  +'and'#7#10'ecWordLeft'#8'ShortCut'#3'%@'#0#1#7'Command'#7#13'ecSelWordLeft'#8
+  +'ShortCut'#3'%`'#0#1#7'Command'#7#7'ecRight'#8'ShortCut'#2''''#0#1#7'Command'
+  +#7#10'ecSelRight'#8'ShortCut'#3''' '#0#1#7'Command'#7#11'ecWordRight'#8'Shor'
+  +'tCut'#3'''@'#0#1#7'Command'#7#14'ecSelWordRight'#8'ShortCut'#3'''`'#0#1#7'C'
+  +'ommand'#7#10'ecPageDown'#8'ShortCut'#2'"'#0#1#7'Command'#7#13'ecSelPageDown'
+  +#8'ShortCut'#3'" '#0#1#7'Command'#7#12'ecPageBottom'#8'ShortCut'#3'"@'#0#1#7
+  ,'Command'#7#15'ecSelPageBottom'#8'ShortCut'#3'"`'#0#1#7'Command'#7#8'ecPageU'
+  +'p'#8'ShortCut'#2'!'#0#1#7'Command'#7#11'ecSelPageUp'#8'ShortCut'#3'! '#0#1#7
+  +'Command'#7#9'ecPageTop'#8'ShortCut'#3'!@'#0#1#7'Command'#7#12'ecSelPageTop'
+  +#8'ShortCut'#3'!`'#0#1#7'Command'#7#11'ecLineStart'#8'ShortCut'#2'$'#0#1#7'C'
+  +'ommand'#7#14'ecSelLineStart'#8'ShortCut'#3'$ '#0#1#7'Command'#7#11'ecEditor'
+  +'Top'#8'ShortCut'#3'$@'#0#1#7'Command'#7#14'ecSelEditorTop'#8'ShortCut'#3'$`'
+  +#0#1#7'Command'#7#9'ecLineEnd'#8'ShortCut'#2'#'#0#1#7'Command'#7#12'ecSelLin'
+  +'eEnd'#8'ShortCut'#3'# '#0#1#7'Command'#7#14'ecEditorBottom'#8'ShortCut'#3'#'
+  +'@'#0#1#7'Command'#7#17'ecSelEditorBottom'#8'ShortCut'#3'#`'#0#1#7'Command'#7
+  +#12'ecToggleMode'#8'ShortCut'#2'-'#0#1#7'Command'#7#6'ecCopy'#8'ShortCut'#3
+  +'-@'#0#1#7'Command'#7#7'ecPaste'#8'ShortCut'#3'- '#0#1#7'Command'#7#12'ecDel'
+  +'eteChar'#8'ShortCut'#2'.'#0#1#7'Command'#7#5'ecCut'#8'ShortCut'#3'. '#0#1#7
+  +'Command'#7#16'ecDeleteLastChar'#8'ShortCut'#2#8#0#1#7'Command'#7#16'ecDelet'
+  +'eLastChar'#8'ShortCut'#3#8' '#0#1#7'Command'#7#16'ecDeleteLastWord'#8'Short'
+  +'Cut'#3#8'@'#0#1#7'Command'#7#6'ecUndo'#8'ShortCut'#4#8#128#0#0#0#1#7'Comman'
+  +'d'#7#6'ecRedo'#8'ShortCut'#4#8#160#0#0#0#1#7'Command'#7#11'ecLineBreak'#8'S'
+  +'hortCut'#2#13#0#1#7'Command'#7#11'ecSelectAll'#8'ShortCut'#3'A@'#0#1#7'Comm'
+  +'and'#7#6'ecCopy'#8'ShortCut'#3'C@'#0#1#7'Command'#7#13'ecBlockIndent'#8'Sho'
+  +'rtCut'#3'I`'#0#1#7'Command'#7#11'ecLineBreak'#8'ShortCut'#3'M@'#0#1#7'Comma'
+  +'nd'#7#12'ecInsertLine'#8'ShortCut'#3'N@'#0#1#7'Command'#7#12'ecDeleteWord'#8
+  +'ShortCut'#3'T@'#0#1#7'Command'#7#15'ecBlockUnindent'#8'ShortCut'#3'U`'#0#1#7
+  +'Command'#7#7'ecPaste'#8'ShortCut'#3'V@'#0#1#7'Command'#7#5'ecCut'#8'ShortCu'
+  +'t'#3'X@'#0#1#7'Command'#7#12'ecDeleteLine'#8'ShortCut'#3'Y@'#0#1#7'Command'
+  +#7#11'ecDeleteEOL'#8'ShortCut'#3'Y`'#0#1#7'Command'#7#6'ecUndo'#8'ShortCut'#3
+  +'Z@'#0#1#7'Command'#7#6'ecRedo'#8'ShortCut'#3'Z`'#0#1#7'Command'#7#13'ecGoto'
+  +'Marker0'#8'ShortCut'#3'0@'#0#1#7'Command'#7#13'ecGotoMarker1'#8'ShortCut'#3
+  +'1@'#0#1#7'Command'#7#13'ecGotoMarker2'#8'ShortCut'#3'2@'#0#1#7'Command'#7#13
+  +'ecGotoMarker3'#8'ShortCut'#3'3@'#0#1#7'Command'#7#13'ecGotoMarker4'#8'Short'
+  +'Cut'#3'4@'#0#1#7'Command'#7#13'ecGotoMarker5'#8'ShortCut'#3'5@'#0#1#7'Comma'
+  +'nd'#7#13'ecGotoMarker6'#8'ShortCut'#3'6@'#0#1#7'Command'#7#13'ecGotoMarker7'
+  +#8'ShortCut'#3'7@'#0#1#7'Command'#7#13'ecGotoMarker8'#8'ShortCut'#3'8@'#0#1#7
+  +'Command'#7#13'ecGotoMarker9'#8'ShortCut'#3'9@'#0#1#7'Command'#7#12'ecSetMar'
+  +'ker0'#8'ShortCut'#3'0`'#0#1#7'Command'#7#12'ecSetMarker1'#8'ShortCut'#3'1`'
+  +#0#1#7'Command'#7#12'ecSetMarker2'#8'ShortCut'#3'2`'#0#1#7'Command'#7#12'ecS'
+  +'etMarker3'#8'ShortCut'#3'3`'#0#1#7'Command'#7#12'ecSetMarker4'#8'ShortCut'#3
+  +'4`'#0#1#7'Command'#7#12'ecSetMarker5'#8'ShortCut'#3'5`'#0#1#7'Command'#7#12
+  +'ecSetMarker6'#8'ShortCut'#3'6`'#0#1#7'Command'#7#12'ecSetMarker7'#8'ShortCu'
+  +'t'#3'7`'#0#1#7'Command'#7#12'ecSetMarker8'#8'ShortCut'#3'8`'#0#1#7'Command'
+  +#7#12'ecSetMarker9'#8'ShortCut'#3'9`'#0#1#7'Command'#7#14'ecNormalSelect'#8
+  +'ShortCut'#3'N`'#0#1#7'Command'#7#14'ecColumnSelect'#8'ShortCut'#3'C`'#0#1#7
+  +'Command'#7#12'ecLineSelect'#8'ShortCut'#3'L`'#0#1#7'Command'#7#14'ecMatchBr'
+  +'acket'#8'ShortCut'#3'B`'#0#0#12'MouseActions'#14#1#9'ShiftMask'#11#7'ssShif'
+  +'t'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcStartSelections'#9
+  +'MoveCaret'#9#0#1#5'Shift'#11#7'ssShift'#0#9'ShiftMask'#11#7'ssShift'#5'ssAl'
+  +'t'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcStartSelections'#9'MoveCare'
+  +'t'#9#6'Option'#2#1#0#1#5'Shift'#11#5'ssAlt'#0#9'ShiftMask'#11#7'ssShift'#5
+  +'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#24'emcStartColumnSelections'#9
+  +'MoveCaret'#9#0#1#5'Shift'#11#7'ssShift'#5'ssAlt'#0#9'ShiftMask'#11#7'ssShif'
+  +'t'#5'ssAlt'#0#8'ClickDir'#7#6'cdDown'#7'Command'#7#24'emcStartColumnSelecti'
+  +'ons'#9'MoveCaret'#9#6'Option'#2#1#0#1#6'Button'#7#7'mbRight'#7'Command'#7#14
+  +'emcContextMenu'#0#1#10'ClickCount'#7#8'ccDouble'#8'ClickDir'#7#6'cdDown'#7
+  +'Command'#7#13'emcSelectWord'#9'MoveCaret'#9#0#1#10'ClickCount'#7#8'ccTriple'
+  +#8'ClickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectLine'#9'MoveCaret'#9#0#1#10
+  +'ClickCount'#7#6'ccQuad'#8'ClickDir'#7#6'cdDown'#7'Command'#7#13'emcSelectPa'
+  +'ra'#9'MoveCaret'#9#0#1#6'Button'#7#8'mbMiddle'#8'ClickDir'#7#6'cdDown'#7'Co'
+  +'mmand'#7#17'emcPasteSelection'#9'MoveCaret'#9#0#1#5'Shift'#11#6'ssCtrl'#0#9
+  +'ShiftMask'#11#7'ssShift'#5'ssAlt'#6'ssCtrl'#0#7'Command'#7#12'emcMouseLink'
+  +#0#0#16'MouseTextActions'#14#0#15'MouseSelActions'#14#1#8'ClickDir'#7#6'cdDo'
+  +'wn'#7'Command'#7#16'emcStartDragMove'#0#0#19'VisibleSpecialChars'#11#8'vscS'
+  +'pace'#12'vscTabAtLast'#0#8'ReadOnly'#9#9'RightEdge'#2#0#26'SelectedColor.Ba'
+  +'ckPriority'#2'2'#26'SelectedColor.ForePriority'#2'2'#27'SelectedColor.Frame'
+  +'Priority'#2'2'#26'SelectedColor.BoldPriority'#2'2'#28'SelectedColor.ItalicP'
+  +'riority'#2'2'#31'SelectedColor.UnderlinePriority'#2'2'#31'SelectedColor.Str'
+  +'ikeOutPriority'#2'2'#21'BracketHighlightStyle'#7#8'sbhsBoth'#28'BracketMatc'
+  ,'hColor.Background'#7#6'clNone'#28'BracketMatchColor.Foreground'#7#6'clNone'
+  +#23'BracketMatchColor.Style'#11#6'fsBold'#0#26'FoldedCodeColor.Background'#7
+  +#6'clNone'#26'FoldedCodeColor.Foreground'#7#6'clGray'#26'FoldedCodeColor.Fra'
+  +'meColor'#7#6'clGray'#25'MouseLinkColor.Background'#7#6'clNone'#25'MouseLink'
+  +'Color.Foreground'#7#6'clBlue'#29'LineHighlightColor.Background'#7#6'clNone'
+  +#29'LineHighlightColor.Foreground'#7#6'clNone'#0#244#18'TSynGutterPartList'#0
+  +#0#15'TSynGutterMarks'#0#5'Width'#2#24#12'MouseActions'#14#0#0#0#20'TSynGutt'
+  +'erLineNumber'#0#5'Width'#2#17#12'MouseActions'#14#0#21'MarkupInfo.Backgroun'
+  +'d'#7#9'clBtnFace'#21'MarkupInfo.Foreground'#7#6'clNone'#10'DigitCount'#2#2
+  +#30'ShowOnlyLineNumbersMultiplesOf'#2#1#9'ZeroStart'#8#12'LeadingZeros'#8#0#0
+  +#17'TSynGutterChanges'#0#5'Width'#2#4#12'MouseActions'#14#0#13'ModifiedColor'
+  +#4#252#233#0#0#10'SavedColor'#7#7'clGreen'#0#0#19'TSynGutterSeparator'#0#5'W'
+  +'idth'#2#2#12'MouseActions'#14#0#21'MarkupInfo.Background'#7#7'clWhite'#21'M'
+  +'arkupInfo.Foreground'#7#6'clGray'#0#0#21'TSynGutterCodeFolding'#0#5'Width'#2
+  +#0#12'MouseActions'#14#1#6'Button'#7#7'mbRight'#7'Command'#7#22'emcCodeFoldC'
+  +'ontextMenu'#0#1#9'ShiftMask'#11#7'ssShift'#0#6'Button'#7#8'mbMiddle'#10'Cli'
+  +'ckCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcCodeFoldColl'
+  +'aps'#0#1#5'Shift'#11#7'ssShift'#0#9'ShiftMask'#11#7'ssShift'#0#6'Button'#7#8
+  +'mbMiddle'#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18
+  +'emcCodeFoldCollaps'#6'Option'#2#1#0#1#10'ClickCount'#7#5'ccAny'#8'ClickDir'
+  +#7#6'cdDown'#7'Command'#7#7'emcNone'#0#0#21'MarkupInfo.Background'#7#6'clNon'
+  +'e'#21'MarkupInfo.Foreground'#7#6'clGray'#20'MouseActionsExpanded'#14#1#10'C'
+  +'lickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#18'emcCodeFoldCo'
+  +'llaps'#0#0#21'MouseActionsCollapsed'#14#1#5'Shift'#11#6'ssCtrl'#0#9'ShiftMa'
+  +'sk'#11#6'ssCtrl'#0#10'ClickCount'#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Comm'
+  +'and'#7#17'emcCodeFoldExpand'#0#1#9'ShiftMask'#11#6'ssCtrl'#0#10'ClickCount'
+  +#7#5'ccAny'#8'ClickDir'#7#6'cdDown'#7'Command'#7#17'emcCodeFoldExpand'#6'Opt'
+  +'ion'#2#1#0#0#0#0#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0#6'Height'#2
+  +#18#3'Top'#3#182#0#5'Width'#3#134#3#6'Panels'#14#1#5'Width'#2'x'#0#1#5'Width'
+  +#2'x'#0#1#5'Width'#3#250#0#0#1#5'Width'#2'P'#0#0#11'SimplePanel'#8#0#0#0#9'T'
+  +'MainMenu'#9'MainMenu1'#3'top'#2'8'#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6
+  +#5'&File'#0#9'TMenuItem'#19'MenuItemOpenProject'#7'Caption'#6#15'Open Projec'
+  +'t...'#8'ShortCut'#4'O'#192#0#0#7'OnClick'#7#24'MenuItemOpenProjectClick'#0#0
+  +#9'TMenuItem'#19'MenuItemSaveProject'#7'Caption'#6#15'Save Project...'#8'Sho'
+  +'rtCut'#4'S'#192#0#0#7'OnClick'#7#24'MenuItemSaveProjectClick'#0#0#9'TMenuIt'
+  +'em'#18'MenuItemOpenRecent'#7'Caption'#6#19'Open Recent Project'#0#9'TMenuIt'
+  +'em'#19'MenuItemClearRecent'#7'Caption'#6#12'(Clear List)'#7'Enabled'#8#7'On'
+  +'Click'#7#24'MenuItemClearRecentClick'#0#0#0#9'TMenuItem'#12'MenuItemSep1'#7
+  +'Caption'#6#1'-'#0#0#9'TMenuItem'#17'MenuItemInputFile'#7'Caption'#6#14'&Inp'
+  +'ut File...'#8'ShortCut'#3'O@'#7'OnClick'#7#22'MenuItemInputFileClick'#0#0#9
+  +'TMenuItem'#25'MenuItemConversionINIFile'#7'Caption'#6#23'&Conversion INI Fi'
+  +'le...'#7'OnClick'#7#30'MenuItemConversionINIFileClick'#0#0#9'TMenuItem'#24
+  +'MenuItemUSEMARCONProgram'#7'Caption'#6#21'&USEMARCON Program...'#7'OnClick'
+  +#7#29'MenuItemUSEMARCONProgramClick'#0#0#9'TMenuItem'#18'MenuItemOutputFile'
+  +#7'Caption'#6#15'&Output File...'#8'ShortCut'#3'S@'#7'OnClick'#7#23'MenuItem'
+  +'OutputFileClick'#0#0#9'TMenuItem'#12'MenuItemSep2'#7'Caption'#6#1'-'#0#0#9
+  +'TMenuItem'#14'MenuItemExport'#7'Caption'#6#17'Export Records...'#7'OnClick'
+  +#7#19'MenuItemExportClick'#0#0#9'TMenuItem'#13'MenuItemPrint'#7'Caption'#6#6
+  +'&Print'#0#9'TMenuItem'#18'MenuItemPrintInput'#7'Caption'#6#15'Input Record.'
+  +'..'#8'ShortCut'#3'P@'#7'OnClick'#7#23'MenuItemPrintInputClick'#0#0#9'TMenuI'
+  +'tem'#19'MenuItemPrintOutput'#7'Caption'#6#16'Output Record...'#7'OnClick'#7
+  +#24'MenuItemPrintOutputClick'#0#0#0#9'TMenuItem'#9'MenuItem6'#7'Caption'#6#1
+  +'-'#0#0#9'TMenuItem'#12'MenuItemExit'#7'Caption'#6#5'E&xit'#8'ShortCut'#3'Q@'
+  +#7'OnClick'#7#17'MenuItemExitClick'#0#0#0#9'TMenuItem'#9'MenuItem4'#7'Captio'
+  +'n'#6#5'&View'#0#9'TMenuItem'#20'MenuItemFindPrevious'#7'Caption'#6#13'Find '
+  +'Previous'#8'ShortCut'#3'r '#7'OnClick'#7#25'MenuItemFindPreviousClick'#0#0#9
+  +'TMenuItem'#16'MenuItemFindNext'#7'Caption'#6#9'Find Next'#8'ShortCut'#2'r'#7
+  +'OnClick'#7#21'MenuItemFindNextClick'#0#0#9'TMenuItem'#17'MenuItemNextError'
+  +#7'Caption'#6#10'Next Error'#8'ShortCut'#2's'#7'OnClick'#7#22'MenuItemNextEr'
+  +'rorClick'#0#0#9'TMenuItem'#9'MenuItem3'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#9
+  +'MenuItem5'#7'Caption'#6#11'Record Font'#0#9'TMenuItem'#19'MenuItemDefaultFo'
+  +'nt'#7'Caption'#6#7'Default'#7'OnClick'#7#24'MenuItemDefaultFontClick'#0#0#9
+  +'TMenuItem'#18'MenuItemCustomFont'#7'Caption'#6#9'Custom...'#7'OnClick'#7#23
+  +'MenuItemCustomFontClick'#0#0#0#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#6'&'
+  ,'Tools'#0#9'TMenuItem'#20'MenuItemEditRuleFile'#7'Caption'#6#18'&Edit Rule F'
+  +'ile...'#7'OnClick'#7#25'MenuItemEditRuleFileClick'#0#0#9'TMenuItem'#19'Menu'
+  +'ItemEditINIFile'#7'Caption'#6#16'Edit INI File...'#7'OnClick'#7#24'MenuItem'
+  +'EditINIFileClick'#0#0#9'TMenuItem'#20'MenuItemEditCharConv'#7'Caption'#6'!E'
+  +'dit Character Conversion File...'#7'OnClick'#7#25'MenuItemEditCharConvClick'
+  +#0#0#9'TMenuItem#MenuItemEditInputFormatCheckingFile'#7'Caption'#6'"Edit Inp'
+  +'ut Format Checking File...'#7'OnClick'#7'(MenuItemEditInputFormatCheckingFi'
+  +'leClick'#0#0#9'TMenuItem#MenuItemEditInputFixedFieldListFile'#7'Caption'#6
+  +'#Edit Input Fixed Field List File...'#7'OnClick'#7'(MenuItemEditInputFixedF'
+  +'ieldListFileClick'#0#0#9'TMenuItem$MenuItemEditOutputFormatCheckingFile'#7
+  +'Caption'#6'#Edit Output Format Checking File...'#7'OnClick'#7')MenuItemEdit'
+  +'OutputFormatCheckingFileClick'#0#0#9'TMenuItem$MenuItemEditOutputFixedField'
+  +'ListFile'#7'Caption'#6'$Edit Output Fixed Field List File...'#7'OnClick'#7
+  +')MenuItemEditOutputFixedFieldListFileClick'#0#0#9'TMenuItem'#12'MenuItemSep'
+  +'5'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#21'MenuItemRunConversion'#7'Caption'#6
+  +#15'&Run Conversion'#8'ShortCut'#3'R@'#7'OnClick'#7#18'BitBtnConvertClick'#0
+  +#0#9'TMenuItem'#22'MenuItemStopConversion'#7'Caption'#6#16'&Stop Conversion'
+  +#7'Enabled'#8#8'ShortCut'#3'q@'#7'OnClick'#7#15'BitBtnStopClick'#0#0#0#9'TMe'
+  +'nuItem'#12'MenuItemHelp'#7'Caption'#6#5'&Help'#0#9'TMenuItem'#13'MenuItemAb'
+  +'out'#7'Caption'#6#9'&About...'#7'OnClick'#7#18'MenuItemAboutClick'#0#0#0#0
+  +#11'TOpenDialog'#11'OpenDialog1'#11'FilterIndex'#2#0#7'Options'#11#15'ofFile'
+  +'MustExist'#14'ofEnableSizing'#12'ofViewDetail'#0#3'top'#2'P'#0#0#11'TSaveDi'
+  +'alog'#11'SaveDialog1'#11'FilterIndex'#2#0#7'Options'#11#15'ofPathMustExist'
+  +#14'ofEnableSizing'#12'ofViewDetail'#0#3'top'#3#168#2#0#0#6'TTimer'#9'TimerN'
+  +'ext'#7'Enabled'#8#7'OnTimer'#7#14'TimerNextTimer'#4'left'#2'P'#3'top'#3#184
+  +#1#0#0#6'TTimer'#9'TimerPrev'#7'Enabled'#8#7'OnTimer'#7#14'TimerPrevTimer'#4
+  +'left'#2'P'#3'top'#3#152#1#0#0#11'TOpenDialog'#17'OpenDialogProject'#5'Title'
+  +#6#21'Open existing profile'#10'DefaultExt'#6#4'.use'#6'Filter'#6'/Projects '
+  +'(*.use)|*.use|All File Types (*.*)|*.*'#11'FilterIndex'#2#0#7'Options'#11#15
+  +'ofFileMustExist'#14'ofEnableSizing'#12'ofViewDetail'#0#3'top'#3#160#0#0#0#11
+  +'TSaveDialog'#17'SaveDialogProject'#5'Title'#6#15'Save profile as'#10'Defaul'
+  +'tExt'#6#4'.use'#6'Filter'#6'/Projects (*.use)|*.use|All File Types (*.*)|*.'
+  +'*'#11'FilterIndex'#2#0#7'Options'#11#17'ofOverwritePrompt'#15'ofPathMustExi'
+  +'st'#18'ofNoReadOnlyReturn'#14'ofEnableSizing'#12'ofViewDetail'#0#3'top'#3
+  +#136#0#0#0#9'TfrReport'#9'frReport1'#7'Dataset'#7#19'frUserDatasetRecord'#11
+  +'InitialZoom'#7#9'pzDefault'#7'Options'#11#0#14'PreviewButtons'#11#6'pbZoom'
+  +#6'pbLoad'#6'pbSave'#7'pbPrint'#6'pbFind'#6'pbHelp'#6'pbExit'#0#11'StoreInFo'
+  +'rm'#9#8'DataType'#7#9'dtDataSet'#5'Title'#6#11'MARC Record'#10'OnGetValue'#7
+  +#17'frReport1GetValue'#4'left'#3#208#1#3'top'#3'8'#1#9'ReportXML'#18#25'G'#0
+  +#0'<'#0'?'#0'x'#0'm'#0'l'#0' '#0'v'#0'e'#0'r'#0's'#0'i'#0'o'#0'n'#0'='#0'"'#0
+  +'1'#0'.'#0'0'#0'"'#0' '#0'e'#0'n'#0'c'#0'o'#0'd'#0'i'#0'n'#0'g'#0'='#0'"'#0
+  +'u'#0't'#0'f'#0'-'#0'8'#0'"'#0'?'#0'>'#0#10#0'<'#0'C'#0'O'#0'N'#0'F'#0'I'#0
+  +'G'#0'>'#0#10#0' '#0' '#0'<'#0'L'#0'a'#0'z'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'V'#0'e'#0'r'#0's'#0'i'#0'o'#0'n'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0'<'#0'T'#0'i'#0't'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'M'#0'A'#0'R'#0'C'#0' '#0'R'#0'e'#0'c'#0'o'#0'r'#0'd'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0'<'#0'S'#0'u'#0'b'#0'j'#0'e'#0'c'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0
+  +'K'#0'e'#0'y'#0'W'#0'o'#0'r'#0'd'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'm'#0'm'#0'e'#0
+  +'n'#0't'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0'C'#0'r'#0'e'#0'a'#0
+  +'t'#0'e'#0'D'#0'a'#0't'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0
+  +'0'#0'2'#0'0'#0'-'#0'0'#0'6'#0'-'#0'0'#0'8'#0' '#0'1'#0'4'#0':'#0'5'#0'4'#0
+  +':'#0'3'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0
+  +'o'#0'r'#0't'#0'L'#0'a'#0's'#0't'#0'C'#0'h'#0'a'#0'n'#0'g'#0'e'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'0'#0'2'#0'0'#0'-'#0'0'#0'6'#0'-'#0'0'#0
+  +'8'#0' '#0'1'#0'4'#0':'#0'5'#0'4'#0':'#0'3'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0'V'#0'e'#0'r'#0's'#0'i'#0
+  +'o'#0'n'#0'B'#0'u'#0'i'#0'l'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0
+  +'V'#0'e'#0'r'#0's'#0'i'#0'o'#0'n'#0'M'#0'a'#0'j'#0'o'#0'r'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'R'#0
+  ,'e'#0'p'#0'o'#0'r'#0't'#0'V'#0'e'#0'r'#0's'#0'i'#0'o'#0'n'#0'M'#0'i'#0'n'#0
+  +'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0'V'#0'e'#0'r'#0's'#0'i'#0
+  +'o'#0'n'#0'R'#0'e'#0'l'#0'e'#0'a'#0's'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0'p'#0'o'#0
+  +'r'#0't'#0'A'#0'u'#0't'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0'<'#0'P'#0'a'#0'g'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'P'#0'r'#0'i'#0'n'#0't'#0'T'#0'o'#0'D'#0'e'#0'f'#0'a'#0'u'#0'l'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'o'#0'u'#0'b'#0'l'#0'e'#0
+  +'P'#0'a'#0's'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0
+  +'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'e'#0'l'#0
+  +'e'#0'c'#0't'#0'e'#0'd'#0'P'#0'r'#0'i'#0'n'#0't'#0'e'#0'r'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'D'#0'e'#0'f'#0'a'#0'u'#0'l'#0't'#0' '#0'p'#0'r'#0
+  +'i'#0'n'#0't'#0'e'#0'r'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'P'#0'a'#0'g'#0'e'#0'C'#0'o'#0'u'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'P'#0'a'#0'g'#0'e'#0'1'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'P'#0'a'#0
+  +'g'#0'e'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'P'#0'a'#0'g'#0'e'#0'R'#0'e'#0'p'#0'o'#0'r'#0
+  +'t'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0
+  +'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0
+  +'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0
+  +'1'#0'0'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'2'#0'9'#0'7'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0
+  +'g'#0'S'#0'i'#0'z'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'9'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'M'#0'a'#0'r'#0
+  +'g'#0'i'#0'n'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'l'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'i'#0'g'#0
+  +'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'B'#0'o'#0't'#0't'#0
+  +'o'#0'm'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'M'#0'a'#0'r'#0'g'#0'i'#0
+  +'n'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'r'#0
+  +'i'#0'e'#0'n'#0't'#0'a'#0't'#0'i'#0'o'#0'n'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'p'#0'o'#0'P'#0'o'#0'r'#0't'#0'r'#0'a'#0'i'#0't'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'U'#0's'#0'e'#0'M'#0'a'#0
+  +'r'#0'g'#0'i'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0
+  +'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'P'#0'r'#0'i'#0'n'#0't'#0'T'#0'o'#0'P'#0'r'#0'e'#0'v'#0'P'#0'a'#0'g'#0'e'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'C'#0
+  +'o'#0'u'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'G'#0
+  +'a'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0'u'#0't'#0
+  +'O'#0'r'#0'd'#0'e'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'l'#0'o'#0
+  +'C'#0'o'#0'l'#0'u'#0'm'#0'n'#0's'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'1'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'P'#0'a'#0'g'#0'e'#0'H'#0'e'#0'a'#0'd'#0
+  +'e'#0'r'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0
+  ,'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'B'#0'a'#0'n'#0'd'#0'V'#0'i'#0'e'#0
+  +'w'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'g'#0't'#0'B'#0'a'#0'n'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0
+  +'d'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'L'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'6'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'7'#0'5'#0
+  +'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'4'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0
+  +'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0
+  +'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0
+  +'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0'a'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'a'#0
+  +'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0'n'#0
+  +'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0
+  +'s'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'B'#0'a'#0'n'#0'd'#0
+  +'T'#0'y'#0'p'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'b'#0't'#0'P'#0
+  +'a'#0'g'#0'e'#0'H'#0'e'#0'a'#0'd'#0'e'#0'r'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'n'#0'd'#0'i'#0't'#0
+  +'i'#0'o'#0'n'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0
+  +'s'#0'e'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0
+  +'h'#0'i'#0'l'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0
+  +'c'#0't'#0'1'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0
+  +'b'#0'j'#0'e'#0'c'#0't'#0'2'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'P'#0'a'#0'g'#0'e'#0'F'#0'o'#0'o'#0't'#0'e'#0'r'#0'1'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0
+  +'s'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0
+  +'f'#0'r'#0'B'#0'a'#0'n'#0'd'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0
+  +'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0'B'#0'a'#0'n'#0
+  +'d'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0
+  ,'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'0'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0'h'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'7'#0'5'#0'2'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0
+  +'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0
+  +'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'4'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0
+  +'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'B'#0'a'#0'n'#0'd'#0'T'#0'y'#0'p'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'b'#0't'#0'P'#0'a'#0'g'#0'e'#0'F'#0'o'#0
+  +'o'#0't'#0'e'#0'r'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'C'#0'o'#0'n'#0'd'#0'i'#0't'#0'i'#0'o'#0'n'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0's'#0'e'#0't'#0'S'#0't'#0
+  +'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'i'#0'l'#0'd'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'2'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0
+  +'3'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0
+  +'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'a'#0's'#0't'#0
+  +'e'#0'r'#0'D'#0'a'#0't'#0'a'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'B'#0'a'#0'n'#0
+  +'d'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0'B'#0'a'#0'n'#0'd'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0
+  +'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'6'#0'4'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'7'#0'5'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0
+  +'s'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'8'#0'"'#0'/'#0'>'#0#10#0
+  ,' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0
+  +'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0
+  +'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0
+  +'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0
+  +'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'B'#0'a'#0'n'#0'd'#0'T'#0'y'#0'p'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'b'#0't'#0'M'#0'a'#0's'#0't'#0'e'#0'r'#0'D'#0'a'#0't'#0'a'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0
+  +'n'#0'd'#0'i'#0't'#0'i'#0'o'#0'n'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'D'#0'a'#0't'#0'a'#0's'#0'e'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'f'#0'r'#0'U'#0's'#0'e'#0'r'#0'D'#0'a'#0't'#0'a'#0's'#0'e'#0
+  +'t'#0'R'#0'e'#0'c'#0'o'#0'r'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'i'#0'l'#0'd'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'3'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'4'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0
+  +'D'#0'a'#0't'#0'a'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'B'#0'a'#0'n'#0'd'#0'V'#0
+  +'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'g'#0't'#0'B'#0'a'#0'n'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0
+  +'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0
+  +'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0
+  +'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'7'#0'5'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'4'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'9'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0
+  +'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0
+  +'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  ,'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0
+  +'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0
+  +'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0
+  +'s'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0
+  +'s'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'B'#0
+  +'a'#0'n'#0'd'#0'T'#0'y'#0'p'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'b'#0't'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'D'#0'a'#0't'#0'a'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'n'#0
+  +'d'#0'i'#0't'#0'i'#0'o'#0'n'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0
+  +'a'#0't'#0'a'#0's'#0'e'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'f'#0'r'#0'U'#0's'#0'e'#0'r'#0'D'#0'a'#0't'#0'a'#0's'#0'e'#0't'#0
+  +'R'#0'e'#0'c'#0'o'#0'r'#0'd'#0'L'#0'i'#0'n'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'i'#0'l'#0'd'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'4'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0
+  +'t'#0'5'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0
+  +'o'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'g'#0't'#0'M'#0'e'#0'm'#0'o'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0
+  +'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'4'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0
+  +'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'1'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'f'#0'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'r'#0'a'#0'm'#0'e'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0'd'#0
+  +'e'#0'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0
+  +'s'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0
+  ,' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0
+  +'m'#0'a'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0'6'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'M'#0'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'['#0'F'#0'i'#0'l'#0'e'#0'N'#0'a'#0'm'#0'e'#0']'#0'&'#0'#'#0'x'#0
+  +'A'#0';'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'E'#0
+  +'n'#0't'#0'e'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0
+  +'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0'p'#0
+  +'o'#0'r'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0'a'#0
+  +'r'#0'a'#0'g'#0'r'#0'a'#0'p'#0'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0'i'#0
+  +'n'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0
+  +'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0
+  +'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'A'#0'r'#0'i'#0
+  +'a'#0'l'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'a'#0
+  +'r'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0
+  +'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'S'#0
+  +'t'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'o'#0'n'#0't'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0
+  +'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0
+  +'W'#0'h'#0'i'#0't'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0
+  +'t'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'H'#0'i'#0
+  +'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'A'#0'l'#0'i'#0'g'#0'n'#0'm'#0'e'#0'n'#0't'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'a'#0'L'#0'e'#0'f'#0't'#0'J'#0'u'#0
+  +'s'#0't'#0'i'#0'f'#0'y'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  ,' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0'u'#0't'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0't'#0'l'#0'T'#0'o'#0'p'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'n'#0'g'#0'l'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'u'#0
+  +'r'#0's'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0
+  +'e'#0'c'#0't'#0'5'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'6'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'M'#0'e'#0'm'#0'o'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'M'#0'e'#0'm'#0
+  +'o'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0'M'#0'e'#0'm'#0'o'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0
+  +'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'2'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'7'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'7'#0'1'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0
+  +'g'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0
+  +'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0
+  +'N'#0'o'#0'n'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0
+  +'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0
+  +'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'S'#0't'#0'y'#0
+  +'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'f'#0'r'#0's'#0'S'#0'o'#0
+  +'l'#0'i'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'W'#0'i'#0'd'#0't'#0'h'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0
+  +'e'#0'B'#0'o'#0'r'#0'd'#0'e'#0'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0
+  +'t'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'5'#0'5'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0'S'#0't'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'M'#0'e'#0'm'#0'o'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'R'#0'e'#0'c'#0'o'#0'r'#0'd'#0' '#0'['#0
+  +'R'#0'e'#0'c'#0'N'#0'r'#0']'#0'&'#0'#'#0'x'#0'A'#0';'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0
+  +'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  ,#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0
+  +'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0
+  +'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0
+  +'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'E'#0'n'#0't'#0'e'#0'r'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0
+  +'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0'a'#0'r'#0'a'#0'g'#0'r'#0'a'#0'p'#0
+  +'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0'i'#0'n'#0'g'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'A'#0'r'#0'i'#0'a'#0'l'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0
+  +'z'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0
+  +'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0
+  +'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'a'#0'r'#0's'#0'e'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0
+  +'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'C'#0'o'#0
+  +'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0
+  +'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'W'#0'h'#0'i'#0't'#0'e'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0
+  +'t'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0
+  +'l'#0'i'#0'g'#0'n'#0'm'#0'e'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0't'#0'a'#0'L'#0'e'#0'f'#0't'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0
+  +'a'#0'y'#0'o'#0'u'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'l'#0
+  +'T'#0'o'#0'p'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'A'#0'n'#0'g'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'6'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0
+  ,'7'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0
+  +'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0'o'#0
+  +'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0
+  +'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0
+  +'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'g'#0
+  +'t'#0'M'#0'e'#0'm'#0'o'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'e'#0
+  +'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'8'#0'4'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0'4'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'6'#0'4'#0
+  +'4'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'1'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'f'#0'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'r'#0'a'#0'm'#0'e'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0'd'#0
+  +'e'#0'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0
+  +'s'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0
+  +'m'#0'a'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0'6'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'M'#0'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'['#0'F'#0'i'#0'e'#0'l'#0'd'#0'D'#0'a'#0't'#0'a'#0']'#0'&'#0'#'#0
+  +'x'#0'A'#0';'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0
+  +'E'#0'n'#0't'#0'e'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0
+  ,'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0
+  +'p'#0'o'#0'r'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0
+  +'a'#0'r'#0'a'#0'g'#0'r'#0'a'#0'p'#0'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0
+  +'i'#0'n'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0
+  +'t'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0
+  +'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0
+  +'t'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'L'#0'u'#0
+  +'c'#0'i'#0'd'#0'a'#0' '#0'C'#0'o'#0'n'#0's'#0'o'#0'l'#0'e'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0
+  +'i'#0'z'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0
+  +'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0'a'#0'r'#0's'#0'e'#0't'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'y'#0'l'#0'e'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0
+  +'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'C'#0
+  +'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0
+  +'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'W'#0'h'#0'i'#0't'#0'e'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'S'#0't'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0
+  +'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'A'#0'l'#0'i'#0'g'#0'n'#0'm'#0'e'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0't'#0'a'#0'L'#0'e'#0'f'#0't'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'L'#0'a'#0'y'#0'o'#0'u'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0
+  +'l'#0'T'#0'o'#0'p'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'A'#0'n'#0'g'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'7'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0
+  +'t'#0'8'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0
+  +'o'#0'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'T'#0'f'#0'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'V'#0'i'#0's'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'g'#0't'#0'M'#0'e'#0'm'#0'o'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  ,' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0
+  +'e'#0'f'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'2'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0
+  +'7'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'1'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0
+  +'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0
+  +'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0
+  +'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'f'#0'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0
+  +'d'#0'e'#0'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0
+  +'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0
+  +'r'#0'm'#0'a'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0'6'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'M'#0'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'P'#0'a'#0'g'#0'e'#0' '#0'['#0'P'#0'A'#0'G'#0'E'#0'#'#0']'#0
+  +' '#0'o'#0'f'#0' '#0'['#0'T'#0'O'#0'T'#0'A'#0'L'#0'P'#0'A'#0'G'#0'E'#0'S'#0
+  +']'#0'&'#0'#'#0'x'#0'A'#0';'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0
+  +'k'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0
+  +'u'#0's'#0'e'#0'E'#0'n'#0't'#0'e'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0
+  +'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'P'#0'a'#0'r'#0'a'#0'g'#0'r'#0'a'#0'p'#0'h'#0'G'#0'a'#0'p'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0
+  +'p'#0'a'#0'c'#0'i'#0'n'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  ,'/'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'U'#0'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'A'#0'r'#0'i'#0'a'#0'l'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'C'#0'h'#0'a'#0'r'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'/'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'o'#0'n'#0't'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'c'#0'l'#0'W'#0'h'#0'i'#0't'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0
+  +'l'#0'i'#0'g'#0'h'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'/'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'l'#0'i'#0'g'#0'n'#0'm'#0
+  +'e'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'a'#0'L'#0'e'#0
+  +'f'#0't'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0'u'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'l'#0'T'#0'o'#0'p'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'n'#0
+  +'g'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'J'#0'u'#0's'#0
+  +'t'#0'i'#0'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0
+  +'s'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'8'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'9'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0'o'#0'4'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0's'#0
+  +'s'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'f'#0
+  +'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0'l'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0
+  +'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0'M'#0'e'#0'm'#0'o'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0'4'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0'h'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0
+  ,' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0'i'#0
+  +'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'8'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'S'#0
+  +'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'3'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0
+  +'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'f'#0
+  +'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'W'#0
+  +'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0'd'#0'e'#0'r'#0's'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0't'#0
+  +'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0'r'#0
+  +'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0
+  +'t'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'M'#0
+  +'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'['#0'F'#0'i'#0'e'#0
+  +'l'#0'd'#0'C'#0'o'#0'd'#0'e'#0']'#0'&'#0'#'#0'x'#0'A'#0';'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0
+  +'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'E'#0'n'#0't'#0'e'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0
+  +'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0'a'#0'r'#0'a'#0'g'#0'r'#0'a'#0
+  +'p'#0'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0'i'#0'n'#0'g'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'a'#0'g'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'L'#0'u'#0'c'#0'i'#0'd'#0'a'#0' '#0'C'#0
+  +'o'#0'n'#0's'#0'o'#0'l'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  ,' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'C'#0'h'#0'a'#0'r'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'/'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'o'#0'n'#0't'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'c'#0'l'#0'W'#0'h'#0'i'#0't'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0
+  +'l'#0'i'#0'g'#0'h'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'/'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'l'#0'i'#0'g'#0'n'#0'm'#0
+  +'e'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'a'#0'L'#0'e'#0
+  +'f'#0't'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0'u'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'l'#0'T'#0'o'#0'p'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'n'#0
+  +'g'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'J'#0'u'#0's'#0
+  +'t'#0'i'#0'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0
+  +'s'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'9'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'1'#0'0'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0'o'#0'5'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'l'#0'a'#0
+  +'s'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0
+  +'f'#0'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0's'#0'i'#0'b'#0
+  +'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0'u'#0'e'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0'M'#0'e'#0'm'#0
+  +'o'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'6'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'o'#0'p'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0'4'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'W'#0'i'#0'd'#0't'#0
+  +'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'e'#0
+  +'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'8'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0
+  +'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  ,'F'#0'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0
+  +'m'#0'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'f'#0'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0
+  +'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0'd'#0'e'#0'r'#0's'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0't'#0'r'#0'i'#0'c'#0
+  +'t'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0'a'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'5'#0'5'#0'6'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0
+  +'a'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'M'#0'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'['#0'I'#0'n'#0
+  +'d'#0'i'#0'c'#0'a'#0't'#0'o'#0'r'#0's'#0']'#0'&'#0'#'#0'x'#0'A'#0';'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'E'#0'n'#0't'#0'e'#0
+  +'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0
+  +'u'#0's'#0'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0'a'#0'r'#0'a'#0'g'#0
+  +'r'#0'a'#0'p'#0'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0'i'#0'n'#0'g'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'a'#0'g'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0'I'#0'n'#0'f'#0'o'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0'm'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'L'#0'u'#0'c'#0'i'#0'd'#0'a'#0
+  +' '#0'C'#0'o'#0'n'#0's'#0'o'#0'l'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'o'#0
+  +'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0
+  +'k'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'C'#0'h'#0'a'#0'r'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'/'#0'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0
+  +'t'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  ,'<'#0'F'#0'o'#0'n'#0't'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0'C'#0'o'#0'l'#0'o'#0'r'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'W'#0'h'#0'i'#0't'#0'e'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0
+  +'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'l'#0'i'#0'g'#0
+  +'n'#0'm'#0'e'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'a'#0
+  +'L'#0'e'#0'f'#0't'#0'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0
+  +'u'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'l'#0'T'#0'o'#0'p'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'A'#0'n'#0'g'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'J'#0
+  +'u'#0's'#0't'#0'i'#0'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0
+  +'a'#0'l'#0's'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'1'#0'0'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'1'#0'1'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'N'#0'a'#0
+  +'m'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'M'#0'e'#0'm'#0'o'#0'7'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'C'#0'l'#0'a'#0's'#0's'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'T'#0'f'#0'r'#0'M'#0'e'#0'm'#0'o'#0'V'#0'i'#0'e'#0'w'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'V'#0'i'#0
+  +'s'#0'i'#0'b'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'T'#0'r'#0
+  +'u'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'g'#0't'#0
+  +'M'#0'e'#0'm'#0'o'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'S'#0't'#0'r'#0'e'#0'a'#0'm'#0'M'#0'o'#0'd'#0'e'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'e'#0'f'#0
+  +'t'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'6'#0'1'#0'2'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'o'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'4'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'W'#0
+  +'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'2'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'H'#0'e'#0'i'#0'g'#0'h'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'1'#0'8'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'S'#0'i'#0'z'#0'e'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'l'#0'a'#0'g'#0's'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'3'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'N'#0'o'#0'n'#0'e'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0
+  +'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'f'#0'r'#0's'#0'S'#0'o'#0'l'#0'i'#0'd'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'r'#0'a'#0'm'#0'e'#0'W'#0'i'#0'd'#0't'#0'h'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'r'#0'a'#0'm'#0'e'#0'B'#0'o'#0'r'#0'd'#0'e'#0
+  +'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  ,' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'R'#0'e'#0's'#0
+  +'t'#0'r'#0'i'#0'c'#0't'#0'i'#0'o'#0'n'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'/'#0'F'#0'r'#0'a'#0'm'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'r'#0'm'#0
+  +'a'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'4'#0'4'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'o'#0'r'#0'm'#0'a'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'M'#0'e'#0'm'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'['#0'D'#0'A'#0'T'#0'E'#0']'#0' '#0'['#0'T'#0'I'#0'M'#0'E'#0']'#0'&'#0'#'#0
+  +'x'#0'A'#0';'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0'c'#0'r'#0'i'#0'p'#0't'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'X'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'G'#0'a'#0'p'#0'Y'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'C'#0'l'#0'i'#0'c'#0'k'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0
+  +'E'#0'n'#0't'#0'e'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'O'#0'n'#0'M'#0'o'#0'u'#0's'#0'e'#0'L'#0'e'#0'a'#0'v'#0'e'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0'l'#0'R'#0'e'#0
+  +'p'#0'o'#0'r'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'P'#0
+  +'a'#0'r'#0'a'#0'g'#0'r'#0'a'#0'p'#0'h'#0'G'#0'a'#0'p'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'i'#0'n'#0'e'#0'S'#0'p'#0'a'#0'c'#0
+  +'i'#0'n'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'a'#0
+  +'t'#0'a'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'T'#0'a'#0'g'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'U'#0'R'#0'L'#0
+  +'I'#0'n'#0'f'#0'o'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0
+  +'t'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'N'#0'a'#0'm'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'A'#0'r'#0
+  +'i'#0'a'#0'l'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'S'#0'i'#0'z'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'1'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'C'#0'h'#0
+  +'a'#0'r'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0
+  +'F'#0'o'#0'n'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'o'#0'n'#0't'#0
+  +'S'#0't'#0'y'#0'l'#0'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'2'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'F'#0'o'#0'n'#0't'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'c'#0'l'#0'B'#0'l'#0'a'#0'c'#0'k'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'l'#0
+  +'l'#0'C'#0'o'#0'l'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'c'#0
+  +'l'#0'W'#0'h'#0'i'#0't'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'H'#0'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0
+  +'h'#0't'#0'S'#0't'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'H'#0
+  ,'i'#0'g'#0'h'#0'l'#0'i'#0'g'#0'h'#0't'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'l'#0'i'#0'g'#0'n'#0'm'#0'e'#0'n'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'a'#0'R'#0'i'#0'g'#0'h'#0't'#0
+  +'J'#0'u'#0's'#0't'#0'i'#0'f'#0'y'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'L'#0'a'#0'y'#0'o'#0'u'#0't'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0't'#0'l'#0'T'#0'o'#0'p'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'A'#0'n'#0'g'#0'l'#0
+  +'e'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'J'#0'u'#0's'#0't'#0'i'#0
+  +'f'#0'y'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'a'#0'l'#0's'#0'e'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'C'#0'u'#0'r'#0's'#0'o'#0'r'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0
+  +'b'#0'j'#0'e'#0'c'#0't'#0'1'#0'1'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0'C'#0'o'#0'u'#0'n'#0't'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'1'#0'1'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'/'#0'P'#0'a'#0'g'#0'e'#0'1'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'F'#0'V'#0'a'#0'l'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'C'#0'o'#0'u'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'5'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'1'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0
+  +'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0'<'#0'O'#0't'#0'h'#0'e'#0'r'#0'K'#0'i'#0'n'#0'd'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0's'#0'e'#0't'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'e'#0'l'#0'd'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'I'#0't'#0'e'#0'm'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'R'#0'e'#0'c'#0'N'#0'r'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'1'#0
+  +'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0
+  +'c'#0't'#0's'#0'2'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0
+  +'t'#0'h'#0'e'#0'r'#0'K'#0'i'#0'n'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0
+  +'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'D'#0'a'#0't'#0'a'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0
+  +'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'F'#0'i'#0'e'#0'l'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'I'#0't'#0'e'#0'm'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'i'#0'l'#0
+  +'e'#0'N'#0'a'#0'm'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'2'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0
+  +'3'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0
+  +'y'#0'p'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0't'#0'h'#0'e'#0
+  +'r'#0'K'#0'i'#0'n'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0
+  +'a'#0't'#0'a'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0
+  +'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0
+  +'i'#0'e'#0'l'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'I'#0't'#0'e'#0
+  +'m'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'i'#0'e'#0'l'#0'd'#0'C'#0
+  +'o'#0'd'#0'e'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'/'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'3'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'4'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0't'#0'h'#0'e'#0'r'#0'K'#0
+  +'i'#0'n'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0
+  ,'a'#0's'#0'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0
+  +#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'e'#0
+  +'l'#0'd'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'I'#0't'#0'e'#0'm'#0' '#0
+  +'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'F'#0'i'#0'e'#0'l'#0'd'#0'D'#0'a'#0't'#0
+  +'a'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0
+  +'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'4'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0'<'#0'O'#0'b'#0'j'#0'e'#0'c'#0't'#0's'#0'5'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'T'#0'y'#0'p'#0' '#0'V'#0
+  +'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'O'#0't'#0'h'#0'e'#0'r'#0'K'#0'i'#0'n'#0
+  +'d'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'0'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'D'#0'a'#0't'#0'a'#0's'#0
+  +'e'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'F'#0'i'#0'e'#0'l'#0'd'#0
+  +' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0
+  +' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'I'#0't'#0'e'#0'm'#0' '#0'V'#0'a'#0
+  +'l'#0'u'#0'e'#0'='#0'"'#0'I'#0'n'#0'd'#0'i'#0'c'#0'a'#0't'#0'o'#0'r'#0's'#0
+  +'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0'/'#0'O'#0
+  +'b'#0'j'#0'e'#0'c'#0't'#0's'#0'5'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0
+  +'<'#0'/'#0'F'#0'V'#0'a'#0'l'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0' '#0'<'#0
+  +'P'#0'a'#0'r'#0'e'#0'n'#0't'#0'V'#0'a'#0'r'#0's'#0' '#0'V'#0'a'#0'l'#0'u'#0
+  +'e'#0'='#0'"'#0'F'#0'i'#0'l'#0'e'#0'&'#0'#'#0'x'#0'A'#0';'#0' '#0'F'#0'i'#0
+  +'l'#0'e'#0'N'#0'a'#0'm'#0'e'#0'&'#0'#'#0'x'#0'A'#0';'#0'R'#0'e'#0'c'#0'o'#0
+  +'r'#0'd'#0'&'#0'#'#0'x'#0'A'#0';'#0' '#0'R'#0'e'#0'c'#0'N'#0'r'#0'&'#0'#'#0
+  +'x'#0'A'#0';'#0'M'#0'A'#0'R'#0'C'#0'&'#0'#'#0'x'#0'A'#0';'#0' '#0'F'#0'i'#0
+  +'e'#0'l'#0'd'#0'C'#0'o'#0'd'#0'e'#0'&'#0'#'#0'x'#0'A'#0';'#0' '#0'I'#0'n'#0
+  +'d'#0'i'#0'c'#0'a'#0't'#0'o'#0'r'#0's'#0'&'#0'#'#0'x'#0'A'#0';'#0' '#0'F'#0
+  +'i'#0'e'#0'l'#0'd'#0'D'#0'a'#0't'#0'a'#0'&'#0'#'#0'x'#0'A'#0';'#0'&'#0'#'#0
+  +'x'#0'A'#0';'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'/'#0'P'#0'a'#0
+  +'g'#0'e'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'D'#0'e'#0't'#0'a'#0'i'#0
+  +'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0's'#0'>'#0#10#0' '#0' '#0' '#0' '#0' '#0
+  +' '#0'<'#0'C'#0'o'#0'u'#0'n'#0't'#0' '#0'V'#0'a'#0'l'#0'u'#0'e'#0'='#0'"'#0
+  +'0'#0'"'#0'/'#0'>'#0#10#0' '#0' '#0' '#0' '#0'<'#0'/'#0'D'#0'e'#0't'#0'a'#0
+  +'i'#0'l'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0's'#0'>'#0#10#0' '#0' '#0'<'#0'/'#0
+  +'L'#0'a'#0'z'#0'R'#0'e'#0'p'#0'o'#0'r'#0't'#0'>'#0#10#0'<'#0'/'#0'C'#0'O'#0
+  +'N'#0'F'#0'I'#0'G'#0'>'#0#10#0#0#0#14'TfrUserDataset'#19'frUserDatasetRecord'
+  +#13'RangeEndCount'#2#1#10'OnCheckEOF'#7#27'frUserDatasetRecordCheckEOF'#7'On'
+  +'First'#7#24'frUserDatasetRecordFirst'#6'OnNext'#7#23'frUserDatasetRecordNex'
+  +'t'#4'left'#3#248#1#3'top'#3'8'#1#0#0#13'TfrTextExport'#13'frTextExport1'#19
+  +'ShowExportParamsDlg'#8#4'left'#3'H'#2#3'top'#3'8'#1#0#0#12'TfrHTMExport'#12
+  +'frHTMExport1'#4'left'#3'p'#2#3'top'#3'8'#1#0#0#12'TfrCSVExport'#12'frCSVExp'
+  +'ort1'#4'left'#3#152#2#3'top'#3'8'#1#0#0#11'TfrDesigner'#11'frDesigner1'#4'l'
+  +'eft'#3#192#2#3'top'#3'8'#1#0#0#14'TfrUserDataset'#23'frUserDatasetRecordLin'
+  +'e'#13'RangeEndCount'#2#1#10'OnCheckEOF'#7#31'frUserDatasetRecordLineCheckEO'
+  +'F'#7'OnFirst'#7#28'frUserDatasetRecordLineFirst'#6'OnNext'#7#27'frUserDatas'
+  +'etRecordLineNext'#4'left'#3' '#2#3'top'#3'8'#1#0#0#11'TFontDialog'#11'FontD'
+  +'ialog1'#11'MinFontSize'#2#0#11'MaxFontSize'#2#0#7'Options'#11#16'fdFixedPit'
+  +'chOnly'#12'fdNoStyleSel'#0#4'left'#3';'#1#3'top'#2'W'#0#0#10'TXMLConfig'#6
+  +'Config'#10'StartEmpty'#8#8'RootName'#6#6'config'#4'left'#2'e'#3'top'#3#136#0
+  +#0#0#0
+]);

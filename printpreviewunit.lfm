@@ -1,0 +1,49 @@
+object FormPreview: TFormPreview
+  Left = 233
+  Height = 497
+  Top = 338
+  Width = 540
+  Caption = 'Print Preview'
+  ClientHeight = 497
+  ClientWidth = 540
+  Position = poMainFormCenter
+  LCLVersion = '0.9.29'
+  object frPreview1: TfrPreview
+    Left = 0
+    Height = 447
+    Top = 0
+    Width = 540
+    Align = alClient
+    BevelOuter = bvLowered
+    Caption = 'frPreview1'
+    TabOrder = 0
+    ScrollBars = ssBoth
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Height = 50
+    Top = 447
+    Width = 540
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 540
+    TabOrder = 1
+    object Bevel1: TBevel
+      Left = 0
+      Height = 2
+      Top = 0
+      Width = 540
+      Align = alTop
+    end
+    object ButtonClose: TButton
+      Left = 8
+      Height = 25
+      Top = 14
+      Width = 75
+      Cancel = True
+      Caption = '&Close'
+      TabOrder = 0
+    end
+  end
+end

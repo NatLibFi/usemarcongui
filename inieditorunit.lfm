@@ -1,0 +1,722 @@
+object FormINIEditor: TFormINIEditor
+  Left = 455
+  Height = 487
+  Top = 317
+  Width = 670
+  HorzScrollBar.Page = 669
+  VertScrollBar.Page = 467
+  ActiveControl = MaskEditMaxErrors
+  BorderStyle = bsDialog
+  Caption = 'INI Editor'
+  ClientHeight = 468
+  ClientWidth = 670
+  KeyPreview = True
+  Menu = AMainMenu1
+  OnCloseQuery = FormINIEditorCloseQuery
+  OnCreate = FormINIEditorCreate
+  OnKeyDown = FormINIEditorKeyDown
+  OnKeyPress = FormINIEditorKeyPress
+  OnShow = FormINIEditorShow
+  object PanelTop: TPanel
+    Height = 50
+    Width = 670
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 670
+    FullRepaint = False
+    TabOrder = 1
+    object Bevel1: TBevel
+      Height = 2
+      Width = 670
+      Align = alTop
+    end
+    object BitBtnSaveAndClose: TBitBtn
+      Left = 8
+      Height = 25
+      Top = 12
+      Width = 88
+      BorderSpacing.InnerBorder = 2
+      Caption = '&Save && Close'
+      NumGlyphs = 0
+      OnClick = BitBtnSaveAndCloseClick
+      TabOrder = 0
+    end
+    object BitBtnSave: TBitBtn
+      Left = 104
+      Height = 25
+      Top = 12
+      Width = 75
+      BorderSpacing.InnerBorder = 2
+      Caption = 'Save'
+      NumGlyphs = 0
+      OnClick = BitBtnSaveClick
+      TabOrder = 1
+    end
+    object BitBtnClose: TBitBtn
+      Left = 189
+      Height = 25
+      Top = 12
+      Width = 75
+      BorderSpacing.InnerBorder = 2
+      Caption = '&Close'
+      ModalResult = 1
+      NumGlyphs = 0
+      TabOrder = 2
+    end
+  end
+  object StatusBar1: TStatusBar
+    Height = 20
+    Top = 448
+    Width = 670
+    Panels = <>
+  end
+  object NotebookINI: TNotebook
+    Height = 398
+    Top = 50
+    Width = 670
+    Align = alClient
+    PageIndex = 2
+    TabOrder = 0
+    object PageFiles: TPage
+      ClientWidth = 662
+      ClientHeight = 372
+      object Label1: TLabel
+        Left = 8
+        Height = 14
+        Top = 49
+        Width = 41
+        Caption = 'Rule File'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 8
+        Height = 14
+        Top = 92
+        Width = 125
+        Caption = 'Character Conversion File'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 228
+        Height = 14
+        Top = 49
+        Width = 129
+        Caption = 'Input Format Checking File'
+        ParentColor = False
+      end
+      object Label4: TLabel
+        Left = 448
+        Height = 14
+        Top = 49
+        Width = 137
+        Caption = 'Output Format Checking File'
+        ParentColor = False
+      end
+      object Label5: TLabel
+        Left = 228
+        Height = 14
+        Top = 92
+        Width = 119
+        Caption = 'Input Fixed Field List File'
+        ParentColor = False
+      end
+      object Label6: TLabel
+        Left = 448
+        Height = 14
+        Top = 92
+        Width = 127
+        Caption = 'Output Fixed Field List File'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 228
+        Height = 14
+        Top = 135
+        Width = 84
+        Caption = 'Default Input File'
+        ParentColor = False
+      end
+      object Label8: TLabel
+        Left = 448
+        Height = 14
+        Top = 135
+        Width = 92
+        Caption = 'Default Output File'
+        ParentColor = False
+      end
+      object Label15: TLabel
+        Left = 8
+        Height = 32
+        Top = 8
+        Width = 433
+        AutoSize = False
+        Caption = 'Normally all configuration files should reside in the same directory as the INI file. In this case it is advised that only file names be entered here without paths.'
+        ParentColor = False
+        WordWrap = True
+      end
+      object Label16: TLabel
+        Left = 8
+        Height = 14
+        Top = 135
+        Width = 64
+        Caption = 'Error Log File'
+        ParentColor = False
+      end
+      object EditRuleFile: TEdit
+        Left = 8
+        Height = 23
+        Top = 67
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 0
+      end
+      object EditCharacterConversionFile: TEdit
+        Left = 8
+        Height = 23
+        Top = 110
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 1
+      end
+      object EditInputFormatCheckingFile: TEdit
+        Left = 228
+        Height = 23
+        Top = 67
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 3
+      end
+      object EditOutputFormatCheckingFile: TEdit
+        Left = 448
+        Height = 23
+        Top = 67
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 6
+      end
+      object EditInputFixedFieldFile: TEdit
+        Left = 228
+        Height = 23
+        Top = 110
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 4
+      end
+      object EditOutputFixedFieldFile: TEdit
+        Left = 448
+        Height = 23
+        Top = 110
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 7
+      end
+      object EditDefaultInputFile: TEdit
+        Left = 228
+        Height = 23
+        Top = 153
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 5
+      end
+      object EditDefaultOutputFile: TEdit
+        Left = 448
+        Height = 23
+        Top = 153
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 8
+      end
+      object EditErrorLogFile: TEdit
+        Left = 8
+        Height = 23
+        Top = 153
+        Width = 205
+        OnChange = EditChange
+        TabOrder = 2
+      end
+    end
+    object PageFileAttributes: TPage
+      ClientWidth = 662
+      ClientHeight = 372
+      object GroupBox1: TGroupBox
+        Left = 10
+        Height = 344
+        Top = 8
+        Width = 194
+        Caption = 'Input File'
+        ClientHeight = 326
+        ClientWidth = 190
+        TabOrder = 0
+        object Label9: TLabel
+          Left = 9
+          Height = 14
+          Top = 32
+          Width = 47
+          Caption = 'Block Size'
+          ParentColor = False
+        end
+        object Label10: TLabel
+          Left = 9
+          Height = 14
+          Top = 120
+          Width = 132
+          Caption = 'Minimum Free Data In Block'
+          ParentColor = False
+        end
+        object Label11: TLabel
+          Left = 9
+          Height = 14
+          Top = 76
+          Width = 173
+          Caption = 'Padding Character (for example 5E)'
+          ParentColor = False
+        end
+        object Label19: TLabel
+          Left = 8
+          Height = 14
+          Top = 236
+          Width = 68
+          Caption = 'Character Set'
+          ParentColor = False
+        end
+        object Label22: TLabel
+          Left = 9
+          Height = 14
+          Top = 192
+          Width = 54
+          Caption = 'File Format'
+          ParentColor = False
+        end
+        object CheckBoxInputSegmented: TCheckBox
+          Left = 9
+          Height = 23
+          Top = 8
+          Width = 146
+          AutoSize = False
+          Caption = 'Segmented File'
+          OnChange = EditChange
+          TabOrder = 0
+        end
+        object MaskEditInputBlockSize: TMaskEdit
+          Left = 9
+          Height = 23
+          Top = 50
+          Width = 80
+          EditMask = '#####'
+          MaxLength = 5
+          OnChange = EditChange
+          ParentColor = False
+          TabStop = True
+          TabOrder = 1
+          Text = '     '
+        end
+        object CheckBoxInputLastBlockPadded: TCheckBox
+          Left = 9
+          Height = 23
+          Top = 166
+          Width = 146
+          AutoSize = False
+          Caption = 'Last Block Padded'
+          OnChange = EditChange
+          TabOrder = 4
+        end
+        object MaskEditInputMinFreeData: TMaskEdit
+          Left = 9
+          Height = 23
+          Top = 138
+          Width = 80
+          EditMask = '#####'
+          MaxLength = 5
+          OnChange = EditChange
+          ParentColor = False
+          TabStop = True
+          TabOrder = 3
+          Text = '     '
+        end
+        object EditInputPaddingChar: TEdit
+          Left = 9
+          Height = 23
+          Top = 94
+          Width = 80
+          OnChange = EditChange
+          TabOrder = 2
+        end
+        object ComboBoxInputCharset: TComboBox
+          Left = 8
+          Height = 21
+          Hint = 'Default means no conversion.'#13#10'Any other character set would be converted to UTF-8 '#13#10'before further processing.'
+          Top = 254
+          Width = 173
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          Items.Strings = (
+            'Default'
+            'MARC-8'
+          )
+          MaxLength = 0
+          OnChange = EditChange
+          TabOrder = 6
+        end
+        object ComboBoxInputFormat: TComboBox
+          Left = 8
+          Height = 21
+          Top = 210
+          Width = 173
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          Items.Strings = (
+            'ISO2709'
+            'MARCXML'
+            'MarcXchange'
+          )
+          MaxLength = 0
+          OnChange = EditChange
+          TabOrder = 5
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 220
+        Height = 344
+        Top = 8
+        Width = 194
+        Caption = 'Output File'
+        ClientHeight = 326
+        ClientWidth = 190
+        TabOrder = 1
+        object Label12: TLabel
+          Left = 9
+          Height = 14
+          Top = 32
+          Width = 47
+          Caption = 'Block Size'
+          ParentColor = False
+        end
+        object Label13: TLabel
+          Left = 9
+          Height = 14
+          Top = 120
+          Width = 132
+          Caption = 'Minimum Free Data In Block'
+          ParentColor = False
+        end
+        object Label14: TLabel
+          Left = 9
+          Height = 14
+          Top = 76
+          Width = 173
+          Caption = 'Padding Character (for example 5E)'
+          ParentColor = False
+        end
+        object Label23: TLabel
+          Left = 9
+          Height = 14
+          Top = 192
+          Width = 54
+          Caption = 'File Format'
+          ParentColor = False
+        end
+        object Label24: TLabel
+          Left = 9
+          Height = 14
+          Top = 280
+          Width = 94
+          Caption = 'XML Record Format'
+          ParentColor = False
+        end
+        object Label25: TLabel
+          Left = 9
+          Height = 14
+          Top = 236
+          Width = 84
+          Caption = 'XML Record Type'
+          ParentColor = False
+        end
+        object CheckBoxOutputSegmented: TCheckBox
+          Left = 9
+          Height = 23
+          Top = 8
+          Width = 146
+          AutoSize = False
+          Caption = 'Segmented File'
+          OnChange = EditChange
+          TabOrder = 0
+        end
+        object MaskEditOutputBlockSize: TMaskEdit
+          Left = 9
+          Height = 23
+          Top = 50
+          Width = 80
+          EditMask = '#####'
+          MaxLength = 5
+          OnChange = EditChange
+          ParentColor = False
+          TabStop = True
+          TabOrder = 1
+          Text = '     '
+        end
+        object CheckBoxOutputLastBlockPadded: TCheckBox
+          Left = 9
+          Height = 23
+          Top = 166
+          Width = 146
+          AutoSize = False
+          Caption = 'Last Block Padded'
+          OnChange = EditChange
+          TabOrder = 4
+        end
+        object MaskEditOutputMinFreeData: TMaskEdit
+          Left = 9
+          Height = 23
+          Top = 138
+          Width = 80
+          EditMask = '#####'
+          MaxLength = 5
+          OnChange = EditChange
+          ParentColor = False
+          TabStop = True
+          TabOrder = 3
+          Text = '     '
+        end
+        object EditOutputPaddingChar: TEdit
+          Left = 9
+          Height = 23
+          Top = 94
+          Width = 80
+          OnChange = EditChange
+          TabOrder = 2
+        end
+        object ComboBoxOutputFormat: TComboBox
+          Left = 6
+          Height = 21
+          Top = 208
+          Width = 173
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          Items.Strings = (
+            'ISO2709'
+            'MARCXML'
+            'MarcXchange'
+          )
+          MaxLength = 0
+          OnChange = EditChange
+          TabOrder = 5
+        end
+        object ComboBoxOutputXMLFormat: TComboBox
+          Left = 6
+          Height = 21
+          Top = 298
+          Width = 173
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          MaxLength = 0
+          OnChange = EditChange
+          TabOrder = 7
+        end
+        object ComboBoxOutputXMLType: TComboBox
+          Left = 6
+          Height = 21
+          Top = 254
+          Width = 173
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          Items.Strings = (
+            'Bibliographic'
+            'Authority'
+            'Holdings'
+            'Classification'
+            'Community'
+          )
+          MaxLength = 0
+          OnChange = EditChange
+          TabOrder = 6
+        end
+      end
+    end
+    object PageOptions: TPage
+      ClientWidth = 662
+      ClientHeight = 372
+      OnContextPopup = PageOptionsContextPopup
+      object Label17: TLabel
+        Left = 8
+        Height = 14
+        Top = 11
+        Width = 130
+        Caption = 'Maximum Number of Errors'
+        ParentColor = False
+      end
+      object Label18: TLabel
+        Left = 8
+        Height = 14
+        Top = 54
+        Width = 64
+        Caption = 'Ordinal Value'
+        ParentColor = False
+      end
+      object Label20: TLabel
+        Left = 8
+        Height = 14
+        Top = 272
+        Width = 199
+        Caption = 'Processing of duplicate subfields in a field'
+        ParentColor = False
+      end
+      object Label21: TLabel
+        Left = 8
+        Height = 14
+        Top = 316
+        Width = 139
+        Caption = 'Processing of duplicate fields'
+        ParentColor = False
+      end
+      object MaskEditMaxErrors: TMaskEdit
+        Left = 8
+        Height = 23
+        Top = 29
+        Width = 80
+        EditMask = '##########'
+        MaxLength = 12
+        OnChange = EditChange
+        ParentColor = False
+        TabStop = True
+        TabOrder = 0
+        Text = '     '
+      end
+      object MaskEditOrdinal: TMaskEdit
+        Left = 8
+        Height = 23
+        Top = 72
+        Width = 80
+        EditMask = '##########'
+        MaxLength = 5
+        OnChange = EditChange
+        ParentColor = False
+        TabStop = True
+        TabOrder = 1
+        Text = '     '
+      end
+      object CheckBoxVerboseMode: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 128
+        Width = 92
+        AutoSize = False
+        Caption = 'Verbose Mode'
+        OnChange = EditChange
+        TabOrder = 3
+      end
+      object CheckBoxRuleDebugMode: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 152
+        Width = 107
+        AutoSize = False
+        Caption = 'Rule Debug Mode'
+        OnChange = EditChange
+        TabOrder = 4
+      end
+      object CheckBoxUpdateOrdinal: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 104
+        Width = 538
+        AutoSize = False
+        Caption = 'Update Ordinal Value (will cause trouble unless run in a strictly controlled environment by one user at a time)'
+        OnChange = EditChange
+        TabOrder = 2
+      end
+      object CheckBoxUTF8Mode: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 176
+        Width = 80
+        AutoSize = False
+        Caption = 'UTF-8 Mode'
+        OnChange = EditChange
+        TabOrder = 5
+      end
+      object CheckBoxFieldOrder: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 200
+        Width = 284
+        AutoSize = False
+        Caption = 'Convert in Field Order (instead of the classic rule order)'
+        OnChange = EditChange
+        TabOrder = 6
+      end
+      object CheckBoxConvertSubfieldsToLowercase: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 224
+        Width = 198
+        Caption = 'Convert Subfield Codes to Lowercase'
+        OnChange = EditChange
+        TabOrder = 7
+      end
+      object ComboBoxDuplicateSubfields: TComboBox
+        Left = 8
+        Height = 21
+        Top = 289
+        Width = 196
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        Items.Strings = (
+          'leave'
+          'delete'
+          'delete_ignore_case'
+          'delete_smart'
+        )
+        MaxLength = 0
+        TabOrder = 9
+      end
+      object ComboBoxDuplicateFields: TComboBox
+        Left = 8
+        Height = 21
+        Top = 333
+        Width = 196
+        AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 13
+        Items.Strings = (
+          'leave'
+          'delete'
+          'delete_ignore_case'
+          'delete_smart'
+        )
+        MaxLength = 0
+        TabOrder = 10
+      end
+      object CheckBoxHandleLinkedFields: TCheckBox
+        Left = 8
+        Height = 13
+        Top = 248
+        Width = 140
+        Caption = 'Handle Linked 880 Fields'
+        OnChange = EditChange
+        TabOrder = 8
+      end
+    end
+  end
+  object AMainMenu1: TMainMenu
+    object MenuItemFile: TMenuItem
+      Caption = '&File'
+      object MenuItemSave: TMenuItem
+        Caption = 'Save'
+        ShortCut = 16467
+        OnClick = MenuItemSaveClick
+      end
+      object MenuItemClose: TMenuItem
+        Caption = '&Close'
+        ShortCut = 16465
+        OnClick = MenuItemCloseClick
+      end
+    end
+  end
+  object TimerInit: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = TimerInitTimer
+    left = 8
+    top = 296
+  end
+end

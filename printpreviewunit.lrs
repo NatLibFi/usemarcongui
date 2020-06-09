@@ -1,0 +1,16 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TFormPreview','FORMDATA',[
+  'TPF0'#12'TFormPreview'#11'FormPreview'#4'Left'#3#233#0#6'Height'#3#241#1#3'T'
+  +'op'#3'R'#1#5'Width'#3#28#2#7'Caption'#6#13'Print Preview'#12'ClientHeight'#3
+  +#241#1#11'ClientWidth'#3#28#2#8'Position'#7#16'poMainFormCenter'#10'LCLVersi'
+  +'on'#6#6'0.9.29'#0#10'TfrPreview'#10'frPreview1'#4'Left'#2#0#6'Height'#3#191
+  +#1#3'Top'#2#0#5'Width'#3#28#2#5'Align'#7#8'alClient'#10'BevelOuter'#7#9'bvLo'
+  +'wered'#7'Caption'#6#10'frPreview1'#8'TabOrder'#2#0#10'ScrollBars'#7#6'ssBot'
+  +'h'#0#0#6'TPanel'#11'PanelBottom'#4'Left'#2#0#6'Height'#2'2'#3'Top'#3#191#1#5
+  +'Width'#3#28#2#5'Align'#7#8'alBottom'#10'BevelOuter'#7#6'bvNone'#12'ClientHe'
+  +'ight'#2'2'#11'ClientWidth'#3#28#2#8'TabOrder'#2#1#0#6'TBevel'#6'Bevel1'#4'L'
+  +'eft'#2#0#6'Height'#2#2#3'Top'#2#0#5'Width'#3#28#2#5'Align'#7#5'alTop'#0#0#7
+  +'TButton'#11'ButtonClose'#4'Left'#2#8#6'Height'#2#25#3'Top'#2#14#5'Width'#2
+  +'K'#6'Cancel'#9#7'Caption'#6#6'&Close'#8'TabOrder'#2#0#0#0#0#0
+]);

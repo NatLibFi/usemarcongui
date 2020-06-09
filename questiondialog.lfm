@@ -1,0 +1,12 @@
+object QuestionForm: TQuestionForm
+  Caption = 'Confirmation'
+  ClientHeight = 106
+  ClientWidth = 426
+  PixelsPerInch = 96
+  HorzScrollBar.Page = 425
+  VertScrollBar.Page = 105
+  Left = 246
+  Height = 106
+  Top = 428
+  Width = 426
+end

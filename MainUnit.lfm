@@ -1,0 +1,2421 @@
+object MainForm: TMainForm
+  Left = 375
+  Height = 598
+  Top = 106
+  Width = 902
+  HorzScrollBar.Page = 809
+  VertScrollBar.Page = 580
+  Caption = 'USEMARCON GUI'
+  ClientHeight = 598
+  ClientWidth = 902
+  Constraints.MinHeight = 150
+  Constraints.MinWidth = 200
+  Icon.Data = {
+    BE0C00000000010001002020000001001800A80C000016000000280000002000
+    0000400000000100180000000000000000000000000000000000000000000000
+    00001E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E0000FF0000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E0000FF0000FFFF00E6FF00E6FF00E60000FF0000FF1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000
+    FFFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FF
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000
+    FFFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FFFF00E6FF00E6
+    0000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00
+    E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00
+    E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00
+    E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000
+    FFFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000
+    FFFF00E6FF00E6FF00E6FF00E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E60000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E0000FF0000FFFF00E6FF00E6FF00E60000FF0000FF1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00E6
+    FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E0000FF0000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FFFF00E6FF00E6
+    0000FF0000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FF
+    0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000
+    FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FFFF00E6FF00
+    E6FF00E60000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00
+    E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00
+    E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00
+    E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00E6FF00
+    E6FF00E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FFFF00E6FF00E6FF00
+    E6FF00E6FF00E60000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000FFFF00E6FF00
+    E6FF00E60000FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E0000FF0000
+    FF0000FF1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E
+    1E1EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FE3FFFFFF80FFFFFF007FF3FF007FC0FE003F807E003F807E003F003F007F003
+    F007F803F80FF807FE3FFC07FFFFFF1FE3FFFFFF80FFFFFF80FFFFFF007FFFFF
+    007FFFFF007FFFFF80FFFFFF80FFFFFFE3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFF
+  }
+  KeyPreview = True
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnCreate = MainFormCreate
+  OnDestroy = MainFormDestroy
+  OnKeyPress = MainFormKeyPress
+  OnResize = MainFormResize
+  OnShortCut = MainFormShortCut
+  ShowHint = True
+  LCLVersion = '2.0.8.0'
+  object PanelTop: TPanel
+    Left = 0
+    Height = 90
+    Top = 0
+    Width = 902
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 90
+    ClientWidth = 902
+    FullRepaint = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+    object LabelConversion: TLabel
+      Left = 206
+      Height = 16
+      Top = 6
+      Width = 184
+      Caption = 'USEMARCON Conversion (INI)'
+      ParentColor = False
+    end
+    object LabelOutputFile: TLabel
+      Left = 606
+      Height = 16
+      Top = 6
+      Width = 67
+      Caption = 'Output File'
+      ParentColor = False
+    end
+    object LabelInputFile: TLabel
+      Left = 8
+      Height = 16
+      Top = 6
+      Width = 56
+      Caption = 'Input File'
+      ParentColor = False
+    end
+    object Label1: TLabel
+      Left = 406
+      Height = 16
+      Top = 6
+      Width = 138
+      Caption = 'USEMARCON Program'
+      ParentColor = False
+    end
+    object LabelRecNr: TLabel
+      Left = 328
+      Height = 16
+      Top = 61
+      Width = 43
+      Caption = 'Record'
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object Bevel1: TBevel
+      Left = 0
+      Height = 2
+      Top = 88
+      Width = 902
+      Align = alBottom
+    end
+    object Bevel2: TBevel
+      Left = 0
+      Height = 2
+      Top = 0
+      Width = 902
+      Align = alTop
+    end
+    object Label3: TLabel
+      Left = 576
+      Height = 16
+      Top = 61
+      Width = 26
+      Caption = 'Find'
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object LabelMatch: TLabel
+      Left = 803
+      Height = 21
+      Top = 56
+      Width = 71
+      AutoSize = False
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object FileNameEditInput: TFileNameEdit
+      Left = 8
+      Height = 22
+      Hint = 'Press Enter in this field to load the file'
+      Top = 24
+      Width = 166
+      OnAcceptFileName = FileNameEditInputAcceptFileName
+      DialogOptions = [ofFileMustExist, ofEnableSizing]
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+      OnKeyPress = FileNameEditInputKeyPress
+    end
+    object FileNameEditConversion: TFileNameEdit
+      Left = 206
+      Height = 22
+      Top = 24
+      Width = 164
+      DialogOptions = [ofPathMustExist]
+      Filter = 'INI Files (*.ini)|*.ini|All Files (*.*)|*.*'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 1
+      OnChange = FileNameEditConversionChange
+    end
+    object FileNameEditOutput: TFileNameEdit
+      Left = 606
+      Height = 22
+      Hint = 'Press Enter in this field to load the file'
+      Top = 24
+      Width = 164
+      OnAcceptFileName = FileNameEditOutputAcceptFileName
+      DialogKind = dkSave
+      DialogOptions = [ofHideReadOnly, ofPathMustExist, ofEnableSizing]
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 3
+      OnKeyPress = FileNameEditOutputKeyPress
+    end
+    object BitBtnConvert: TBitBtn
+      Left = 8
+      Height = 25
+      Hint = 'Run Conversion'
+      Top = 54
+      Width = 94
+      BorderSpacing.InnerBorder = 2
+      Caption = 'Run'
+      OnClick = BitBtnConvertClick
+      TabOrder = 4
+    end
+    object BitBtnStop: TBitBtn
+      Left = 112
+      Height = 25
+      Hint = 'Stop Conversion'
+      Top = 54
+      Width = 94
+      BorderSpacing.InnerBorder = 2
+      Caption = '&Stop'
+      Enabled = False
+      OnClick = BitBtnStopClick
+      TabOrder = 5
+    end
+    object FileNameEditUSEMARCON: TFileNameEdit
+      Left = 406
+      Height = 22
+      Top = 24
+      Width = 168
+      DialogOptions = [ofFileMustExist]
+      Filter = 'Executables (*.exe)|*.exe|All Files (*.*)|*.*'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 2
+    end
+    object EditRecNr: TEdit
+      Left = 374
+      Height = 22
+      Hint = 'Shows current record. Change and press Enter to move to another record'
+      Top = 56
+      Width = 58
+      OnEditingDone = EditRecNrEditingDone
+      OnKeyPress = EditRecNrKeyPress
+      TabOrder = 7
+    end
+    object BitBtnPrevious: TBitBtn
+      Left = 464
+      Height = 25
+      Hint = 'Previous Record'
+      Top = 54
+      Width = 24
+      BorderSpacing.InnerBorder = 2
+      Caption = '<<'
+      OnKeyDown = BitBtnPreviousKeyDown
+      OnKeyUp = BitBtnPreviousKeyUp
+      OnMouseDown = BitBtnPreviousMouseDown
+      OnMouseUp = BitBtnPreviousMouseUp
+      TabOrder = 9
+    end
+    object BitBtnNext: TBitBtn
+      Left = 488
+      Height = 25
+      Hint = 'Next Record'
+      Top = 54
+      Width = 24
+      BorderSpacing.InnerBorder = 2
+      Caption = '>>'
+      OnKeyDown = BitBtnNextKeyDown
+      OnKeyUp = BitBtnNextKeyUp
+      OnMouseDown = BitBtnNextMouseDown
+      OnMouseUp = BitBtnNextMouseUp
+      TabOrder = 10
+    end
+    object EditFind: TEdit
+      Left = 606
+      Height = 22
+      Hint = 'Wildcards: ? = one character, * = multiple characters. Example: 245 *hello. Start with / to use regular expressions.'
+      Top = 56
+      Width = 107
+      OnChange = EditFindChange
+      OnKeyPress = EditFindKeyPress
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 12
+    end
+    object BitBtnFind: TBitBtn
+      Left = 720
+      Height = 25
+      Top = 54
+      Width = 75
+      BorderSpacing.InnerBorder = 2
+      Caption = '&Find'
+      Enabled = False
+      OnClick = BitBtnFindClick
+      TabOrder = 13
+    end
+    object BitBtnEditRuleFile: TBitBtn
+      Left = 216
+      Height = 25
+      Top = 54
+      Width = 104
+      BorderSpacing.InnerBorder = 2
+      Caption = '&Edit Rule File...'
+      Enabled = False
+      OnClick = BitBtnEditRuleFileClick
+      TabOrder = 6
+    end
+    object BitBtnFirst: TBitBtn
+      Left = 440
+      Height = 25
+      Hint = 'First Record'
+      Top = 54
+      Width = 24
+      BorderSpacing.InnerBorder = 2
+      Caption = '|<'
+      OnClick = BitBtnFirstClick
+      TabOrder = 8
+    end
+    object BitBtnLast: TBitBtn
+      Left = 512
+      Height = 25
+      Hint = 'Last Record'
+      Top = 54
+      Width = 24
+      BorderSpacing.InnerBorder = 2
+      Caption = '>|'
+      OnClick = BitBtnLastClick
+      TabOrder = 11
+    end
+  end
+  object PanelFiles: TPanel
+    Left = 0
+    Height = 303
+    Top = 90
+    Width = 902
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 303
+    ClientWidth = 902
+    FullRepaint = False
+    TabOrder = 0
+    object PanelInput: TPanel
+      Left = 0
+      Height = 303
+      Top = 0
+      Width = 282
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 303
+      ClientWidth = 282
+      FullRepaint = False
+      TabOrder = 0
+      object Panel4: TPanel
+        Left = 0
+        Height = 22
+        Top = 0
+        Width = 282
+        Align = alTop
+        BevelOuter = bvNone
+        Caption = 'Input File Contents'
+        FullRepaint = False
+        TabOrder = 1
+      end
+      inline SynEditInput: TSynEdit
+        Left = 0
+        Height = 281
+        Top = 22
+        Width = 282
+        Align = alClient
+        Font.CharSet = 4
+        Font.Height = -13
+        Font.Name = 'Lucida Console'
+        Font.Pitch = fpFixed
+        Font.Quality = fqNonAntialiased
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        OnClick = SynEditInputClick
+        OnDblClick = SynEditInputClick
+        BookMarkOptions.Xoffset = -18
+        Gutter.AutoSize = False
+        Gutter.Visible = False
+        Gutter.Width = 0
+        Gutter.MouseActions = <        
+          item
+            ClickCount = ccAny
+            ClickDir = cdDown
+            Command = emcOnMainGutterClick
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end>
+        RightGutter.Width = 0
+        RightGutter.MouseActions = <        
+          item
+            ClickCount = ccAny
+            ClickDir = cdDown
+            Command = emcOnMainGutterClick
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end>
+        Keystrokes = <        
+          item
+            Command = ecUp
+            ShortCut = 38
+          end        
+          item
+            Command = ecSelUp
+            ShortCut = 8230
+          end        
+          item
+            Command = ecScrollUp
+            ShortCut = 16422
+          end        
+          item
+            Command = ecDown
+            ShortCut = 40
+          end        
+          item
+            Command = ecSelDown
+            ShortCut = 8232
+          end        
+          item
+            Command = ecScrollDown
+            ShortCut = 16424
+          end        
+          item
+            Command = ecLeft
+            ShortCut = 37
+          end        
+          item
+            Command = ecSelLeft
+            ShortCut = 8229
+          end        
+          item
+            Command = ecWordLeft
+            ShortCut = 16421
+          end        
+          item
+            Command = ecSelWordLeft
+            ShortCut = 24613
+          end        
+          item
+            Command = ecRight
+            ShortCut = 39
+          end        
+          item
+            Command = ecSelRight
+            ShortCut = 8231
+          end        
+          item
+            Command = ecWordRight
+            ShortCut = 16423
+          end        
+          item
+            Command = ecSelWordRight
+            ShortCut = 24615
+          end        
+          item
+            Command = ecPageDown
+            ShortCut = 34
+          end        
+          item
+            Command = ecSelPageDown
+            ShortCut = 8226
+          end        
+          item
+            Command = ecPageBottom
+            ShortCut = 16418
+          end        
+          item
+            Command = ecSelPageBottom
+            ShortCut = 24610
+          end        
+          item
+            Command = ecPageUp
+            ShortCut = 33
+          end        
+          item
+            Command = ecSelPageUp
+            ShortCut = 8225
+          end        
+          item
+            Command = ecPageTop
+            ShortCut = 16417
+          end        
+          item
+            Command = ecSelPageTop
+            ShortCut = 24609
+          end        
+          item
+            Command = ecLineStart
+            ShortCut = 36
+          end        
+          item
+            Command = ecSelLineStart
+            ShortCut = 8228
+          end        
+          item
+            Command = ecEditorTop
+            ShortCut = 16420
+          end        
+          item
+            Command = ecSelEditorTop
+            ShortCut = 24612
+          end        
+          item
+            Command = ecLineEnd
+            ShortCut = 35
+          end        
+          item
+            Command = ecSelLineEnd
+            ShortCut = 8227
+          end        
+          item
+            Command = ecEditorBottom
+            ShortCut = 16419
+          end        
+          item
+            Command = ecSelEditorBottom
+            ShortCut = 24611
+          end        
+          item
+            Command = ecToggleMode
+            ShortCut = 45
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16429
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 8237
+          end        
+          item
+            Command = ecDeleteChar
+            ShortCut = 46
+          end        
+          item
+            Command = ecCut
+            ShortCut = 8238
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8200
+          end        
+          item
+            Command = ecDeleteLastWord
+            ShortCut = 16392
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 32776
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 40968
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 13
+          end        
+          item
+            Command = ecSelectAll
+            ShortCut = 16449
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16451
+          end        
+          item
+            Command = ecBlockIndent
+            ShortCut = 24649
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 16461
+          end        
+          item
+            Command = ecInsertLine
+            ShortCut = 16462
+          end        
+          item
+            Command = ecDeleteWord
+            ShortCut = 16468
+          end        
+          item
+            Command = ecBlockUnindent
+            ShortCut = 24661
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 16470
+          end        
+          item
+            Command = ecCut
+            ShortCut = 16472
+          end        
+          item
+            Command = ecDeleteLine
+            ShortCut = 16473
+          end        
+          item
+            Command = ecDeleteEOL
+            ShortCut = 24665
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 16474
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 24666
+          end        
+          item
+            Command = ecGotoMarker0
+            ShortCut = 16432
+          end        
+          item
+            Command = ecGotoMarker1
+            ShortCut = 16433
+          end        
+          item
+            Command = ecGotoMarker2
+            ShortCut = 16434
+          end        
+          item
+            Command = ecGotoMarker3
+            ShortCut = 16435
+          end        
+          item
+            Command = ecGotoMarker4
+            ShortCut = 16436
+          end        
+          item
+            Command = ecGotoMarker5
+            ShortCut = 16437
+          end        
+          item
+            Command = ecGotoMarker6
+            ShortCut = 16438
+          end        
+          item
+            Command = ecGotoMarker7
+            ShortCut = 16439
+          end        
+          item
+            Command = ecGotoMarker8
+            ShortCut = 16440
+          end        
+          item
+            Command = ecGotoMarker9
+            ShortCut = 16441
+          end        
+          item
+            Command = ecSetMarker0
+            ShortCut = 24624
+          end        
+          item
+            Command = ecSetMarker1
+            ShortCut = 24625
+          end        
+          item
+            Command = ecSetMarker2
+            ShortCut = 24626
+          end        
+          item
+            Command = ecSetMarker3
+            ShortCut = 24627
+          end        
+          item
+            Command = ecSetMarker4
+            ShortCut = 24628
+          end        
+          item
+            Command = ecSetMarker5
+            ShortCut = 24629
+          end        
+          item
+            Command = ecSetMarker6
+            ShortCut = 24630
+          end        
+          item
+            Command = ecSetMarker7
+            ShortCut = 24631
+          end        
+          item
+            Command = ecSetMarker8
+            ShortCut = 24632
+          end        
+          item
+            Command = ecSetMarker9
+            ShortCut = 24633
+          end        
+          item
+            Command = ecNormalSelect
+            ShortCut = 24654
+          end        
+          item
+            Command = ecColumnSelect
+            ShortCut = 24643
+          end        
+          item
+            Command = ecLineSelect
+            ShortCut = 24652
+          end        
+          item
+            Command = ecMatchBracket
+            ShortCut = 24642
+          end>
+        MouseActions = <        
+          item
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartSelections
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssShift]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartSelections
+            MoveCaret = True
+            Option = 1
+          end        
+          item
+            Shift = [ssAlt]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartColumnSelections
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssShift, ssAlt]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartColumnSelections
+            MoveCaret = True
+            Option = 1
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end        
+          item
+            ClickCount = ccDouble
+            ClickDir = cdDown
+            Command = emcSelectWord
+            MoveCaret = True
+          end        
+          item
+            ClickCount = ccTriple
+            ClickDir = cdDown
+            Command = emcSelectLine
+            MoveCaret = True
+          end        
+          item
+            ClickCount = ccQuad
+            ClickDir = cdDown
+            Command = emcSelectPara
+            MoveCaret = True
+          end        
+          item
+            Button = mbMiddle
+            ClickDir = cdDown
+            Command = emcPasteSelection
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssCtrl]
+            ShiftMask = [ssShift, ssAlt, ssCtrl]
+            Command = emcMouseLink
+          end>
+        MouseTextActions = <>
+        MouseSelActions = <        
+          item
+            ClickDir = cdDown
+            Command = emcStartDragMove
+          end>
+        MaxLeftChar = 10240
+        VisibleSpecialChars = [vscSpace, vscTabAtLast]
+        ReadOnly = True
+        SelectedColor.BackPriority = 50
+        SelectedColor.ForePriority = 50
+        SelectedColor.FramePriority = 50
+        SelectedColor.BoldPriority = 50
+        SelectedColor.ItalicPriority = 50
+        SelectedColor.UnderlinePriority = 50
+        SelectedColor.StrikeOutPriority = 50
+        BracketHighlightStyle = sbhsBoth
+        BracketMatchColor.Background = clNone
+        BracketMatchColor.Foreground = clNone
+        BracketMatchColor.Style = [fsBold]
+        FoldedCodeColor.Background = clNone
+        FoldedCodeColor.Foreground = clGray
+        FoldedCodeColor.FrameColor = clGray
+        MouseLinkColor.Background = clNone
+        MouseLinkColor.Foreground = clBlue
+        LineHighlightColor.Background = clNone
+        LineHighlightColor.Foreground = clNone
+        OnCommandProcessed = SynEditInputCommandProcessed
+        OnStatusChange = SynEditInputStatusChange
+        inline TSynGutterPartList
+          object TSynGutterMarks
+            Width = 24
+            MouseActions = <>
+          end
+          object TSynGutterLineNumber
+            Width = 17
+            MouseActions = <>
+            MarkupInfo.Background = clBtnFace
+            MarkupInfo.Foreground = clNone
+            DigitCount = 2
+            ShowOnlyLineNumbersMultiplesOf = 1
+            ZeroStart = False
+            LeadingZeros = False
+          end
+          object TSynGutterChanges
+            Width = 4
+            MouseActions = <>
+            ModifiedColor = 59900
+            SavedColor = clGreen
+          end
+          object TSynGutterSeparator
+            Width = 2
+            MouseActions = <>
+            MarkupInfo.Background = clWhite
+            MarkupInfo.Foreground = clGray
+          end
+          object TSynGutterCodeFolding
+            Width = 0
+            MouseActions = <            
+              item
+                Button = mbRight
+                Command = emcCodeFoldContextMenu
+              end            
+              item
+                ShiftMask = [ssShift]
+                Button = mbMiddle
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+              end            
+              item
+                Shift = [ssShift]
+                ShiftMask = [ssShift]
+                Button = mbMiddle
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+                Option = 1
+              end            
+              item
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcNone
+              end>
+            MarkupInfo.Background = clNone
+            MarkupInfo.Foreground = clGray
+            MouseActionsExpanded = <            
+              item
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+              end>
+            MouseActionsCollapsed = <            
+              item
+                Shift = [ssCtrl]
+                ShiftMask = [ssCtrl]
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldExpand
+              end            
+              item
+                ShiftMask = [ssCtrl]
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldExpand
+                Option = 1
+              end>
+          end
+        end
+      end
+    end
+    object Splitter1: TSplitter
+      Left = 282
+      Height = 303
+      Top = 0
+      Width = 5
+      AutoSnap = False
+      Beveled = True
+    end
+    object PanelOutput: TPanel
+      Left = 287
+      Height = 303
+      Top = 0
+      Width = 615
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 303
+      ClientWidth = 615
+      FullRepaint = False
+      TabOrder = 1
+      object Panel5: TPanel
+        Left = 0
+        Height = 22
+        Top = 0
+        Width = 615
+        Align = alTop
+        BevelOuter = bvNone
+        Caption = 'Output File Contents'
+        FullRepaint = False
+        TabOrder = 1
+      end
+      inline SynEditOutput: TSynEdit
+        Left = 0
+        Height = 281
+        Top = 22
+        Width = 615
+        Align = alClient
+        Font.CharSet = 4
+        Font.Height = -13
+        Font.Name = 'Lucida Console'
+        Font.Pitch = fpFixed
+        Font.Quality = fqNonAntialiased
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        OnClick = SynEditOutputClick
+        OnDblClick = SynEditOutputClick
+        BookMarkOptions.Xoffset = -18
+        Gutter.AutoSize = False
+        Gutter.Visible = False
+        Gutter.Width = 0
+        Gutter.MouseActions = <        
+          item
+            ClickCount = ccAny
+            ClickDir = cdDown
+            Command = emcOnMainGutterClick
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end>
+        RightGutter.Width = 0
+        RightGutter.MouseActions = <        
+          item
+            ClickCount = ccAny
+            ClickDir = cdDown
+            Command = emcOnMainGutterClick
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end>
+        Keystrokes = <        
+          item
+            Command = ecUp
+            ShortCut = 38
+          end        
+          item
+            Command = ecSelUp
+            ShortCut = 8230
+          end        
+          item
+            Command = ecScrollUp
+            ShortCut = 16422
+          end        
+          item
+            Command = ecDown
+            ShortCut = 40
+          end        
+          item
+            Command = ecSelDown
+            ShortCut = 8232
+          end        
+          item
+            Command = ecScrollDown
+            ShortCut = 16424
+          end        
+          item
+            Command = ecLeft
+            ShortCut = 37
+          end        
+          item
+            Command = ecSelLeft
+            ShortCut = 8229
+          end        
+          item
+            Command = ecWordLeft
+            ShortCut = 16421
+          end        
+          item
+            Command = ecSelWordLeft
+            ShortCut = 24613
+          end        
+          item
+            Command = ecRight
+            ShortCut = 39
+          end        
+          item
+            Command = ecSelRight
+            ShortCut = 8231
+          end        
+          item
+            Command = ecWordRight
+            ShortCut = 16423
+          end        
+          item
+            Command = ecSelWordRight
+            ShortCut = 24615
+          end        
+          item
+            Command = ecPageDown
+            ShortCut = 34
+          end        
+          item
+            Command = ecSelPageDown
+            ShortCut = 8226
+          end        
+          item
+            Command = ecPageBottom
+            ShortCut = 16418
+          end        
+          item
+            Command = ecSelPageBottom
+            ShortCut = 24610
+          end        
+          item
+            Command = ecPageUp
+            ShortCut = 33
+          end        
+          item
+            Command = ecSelPageUp
+            ShortCut = 8225
+          end        
+          item
+            Command = ecPageTop
+            ShortCut = 16417
+          end        
+          item
+            Command = ecSelPageTop
+            ShortCut = 24609
+          end        
+          item
+            Command = ecLineStart
+            ShortCut = 36
+          end        
+          item
+            Command = ecSelLineStart
+            ShortCut = 8228
+          end        
+          item
+            Command = ecEditorTop
+            ShortCut = 16420
+          end        
+          item
+            Command = ecSelEditorTop
+            ShortCut = 24612
+          end        
+          item
+            Command = ecLineEnd
+            ShortCut = 35
+          end        
+          item
+            Command = ecSelLineEnd
+            ShortCut = 8227
+          end        
+          item
+            Command = ecEditorBottom
+            ShortCut = 16419
+          end        
+          item
+            Command = ecSelEditorBottom
+            ShortCut = 24611
+          end        
+          item
+            Command = ecToggleMode
+            ShortCut = 45
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16429
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 8237
+          end        
+          item
+            Command = ecDeleteChar
+            ShortCut = 46
+          end        
+          item
+            Command = ecCut
+            ShortCut = 8238
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8200
+          end        
+          item
+            Command = ecDeleteLastWord
+            ShortCut = 16392
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 32776
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 40968
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 13
+          end        
+          item
+            Command = ecSelectAll
+            ShortCut = 16449
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16451
+          end        
+          item
+            Command = ecBlockIndent
+            ShortCut = 24649
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 16461
+          end        
+          item
+            Command = ecInsertLine
+            ShortCut = 16462
+          end        
+          item
+            Command = ecDeleteWord
+            ShortCut = 16468
+          end        
+          item
+            Command = ecBlockUnindent
+            ShortCut = 24661
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 16470
+          end        
+          item
+            Command = ecCut
+            ShortCut = 16472
+          end        
+          item
+            Command = ecDeleteLine
+            ShortCut = 16473
+          end        
+          item
+            Command = ecDeleteEOL
+            ShortCut = 24665
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 16474
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 24666
+          end        
+          item
+            Command = ecGotoMarker0
+            ShortCut = 16432
+          end        
+          item
+            Command = ecGotoMarker1
+            ShortCut = 16433
+          end        
+          item
+            Command = ecGotoMarker2
+            ShortCut = 16434
+          end        
+          item
+            Command = ecGotoMarker3
+            ShortCut = 16435
+          end        
+          item
+            Command = ecGotoMarker4
+            ShortCut = 16436
+          end        
+          item
+            Command = ecGotoMarker5
+            ShortCut = 16437
+          end        
+          item
+            Command = ecGotoMarker6
+            ShortCut = 16438
+          end        
+          item
+            Command = ecGotoMarker7
+            ShortCut = 16439
+          end        
+          item
+            Command = ecGotoMarker8
+            ShortCut = 16440
+          end        
+          item
+            Command = ecGotoMarker9
+            ShortCut = 16441
+          end        
+          item
+            Command = ecSetMarker0
+            ShortCut = 24624
+          end        
+          item
+            Command = ecSetMarker1
+            ShortCut = 24625
+          end        
+          item
+            Command = ecSetMarker2
+            ShortCut = 24626
+          end        
+          item
+            Command = ecSetMarker3
+            ShortCut = 24627
+          end        
+          item
+            Command = ecSetMarker4
+            ShortCut = 24628
+          end        
+          item
+            Command = ecSetMarker5
+            ShortCut = 24629
+          end        
+          item
+            Command = ecSetMarker6
+            ShortCut = 24630
+          end        
+          item
+            Command = ecSetMarker7
+            ShortCut = 24631
+          end        
+          item
+            Command = ecSetMarker8
+            ShortCut = 24632
+          end        
+          item
+            Command = ecSetMarker9
+            ShortCut = 24633
+          end        
+          item
+            Command = ecNormalSelect
+            ShortCut = 24654
+          end        
+          item
+            Command = ecColumnSelect
+            ShortCut = 24643
+          end        
+          item
+            Command = ecLineSelect
+            ShortCut = 24652
+          end        
+          item
+            Command = ecMatchBracket
+            ShortCut = 24642
+          end>
+        MouseActions = <        
+          item
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartSelections
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssShift]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartSelections
+            MoveCaret = True
+            Option = 1
+          end        
+          item
+            Shift = [ssAlt]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartColumnSelections
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssShift, ssAlt]
+            ShiftMask = [ssShift, ssAlt]
+            ClickDir = cdDown
+            Command = emcStartColumnSelections
+            MoveCaret = True
+            Option = 1
+          end        
+          item
+            Button = mbRight
+            Command = emcContextMenu
+          end        
+          item
+            ClickCount = ccDouble
+            ClickDir = cdDown
+            Command = emcSelectWord
+            MoveCaret = True
+          end        
+          item
+            ClickCount = ccTriple
+            ClickDir = cdDown
+            Command = emcSelectLine
+            MoveCaret = True
+          end        
+          item
+            ClickCount = ccQuad
+            ClickDir = cdDown
+            Command = emcSelectPara
+            MoveCaret = True
+          end        
+          item
+            Button = mbMiddle
+            ClickDir = cdDown
+            Command = emcPasteSelection
+            MoveCaret = True
+          end        
+          item
+            Shift = [ssCtrl]
+            ShiftMask = [ssShift, ssAlt, ssCtrl]
+            Command = emcMouseLink
+          end>
+        MouseTextActions = <>
+        MouseSelActions = <        
+          item
+            ClickDir = cdDown
+            Command = emcStartDragMove
+          end>
+        MaxLeftChar = 10240
+        VisibleSpecialChars = [vscSpace, vscTabAtLast]
+        ReadOnly = True
+        SelectedColor.BackPriority = 50
+        SelectedColor.ForePriority = 50
+        SelectedColor.FramePriority = 50
+        SelectedColor.BoldPriority = 50
+        SelectedColor.ItalicPriority = 50
+        SelectedColor.UnderlinePriority = 50
+        SelectedColor.StrikeOutPriority = 50
+        BracketHighlightStyle = sbhsBoth
+        BracketMatchColor.Background = clNone
+        BracketMatchColor.Foreground = clNone
+        BracketMatchColor.Style = [fsBold]
+        FoldedCodeColor.Background = clNone
+        FoldedCodeColor.Foreground = clGray
+        FoldedCodeColor.FrameColor = clGray
+        MouseLinkColor.Background = clNone
+        MouseLinkColor.Foreground = clBlue
+        LineHighlightColor.Background = clNone
+        LineHighlightColor.Foreground = clNone
+        OnCommandProcessed = SynEditOutputCommandProcessed
+        OnStatusChange = SynEditOutputStatusChange
+        inline TSynGutterPartList
+          object TSynGutterMarks
+            Width = 24
+            MouseActions = <>
+          end
+          object TSynGutterLineNumber
+            Width = 17
+            MouseActions = <>
+            MarkupInfo.Background = clBtnFace
+            MarkupInfo.Foreground = clNone
+            DigitCount = 2
+            ShowOnlyLineNumbersMultiplesOf = 1
+            ZeroStart = False
+            LeadingZeros = False
+          end
+          object TSynGutterChanges
+            Width = 4
+            MouseActions = <>
+            ModifiedColor = 59900
+            SavedColor = clGreen
+          end
+          object TSynGutterSeparator
+            Width = 2
+            MouseActions = <>
+            MarkupInfo.Background = clWhite
+            MarkupInfo.Foreground = clGray
+          end
+          object TSynGutterCodeFolding
+            Width = 0
+            MouseActions = <            
+              item
+                Button = mbRight
+                Command = emcCodeFoldContextMenu
+              end            
+              item
+                ShiftMask = [ssShift]
+                Button = mbMiddle
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+              end            
+              item
+                Shift = [ssShift]
+                ShiftMask = [ssShift]
+                Button = mbMiddle
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+                Option = 1
+              end            
+              item
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcNone
+              end>
+            MarkupInfo.Background = clNone
+            MarkupInfo.Foreground = clGray
+            MouseActionsExpanded = <            
+              item
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldCollaps
+              end>
+            MouseActionsCollapsed = <            
+              item
+                Shift = [ssCtrl]
+                ShiftMask = [ssCtrl]
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldExpand
+              end            
+              item
+                ShiftMask = [ssCtrl]
+                ClickCount = ccAny
+                ClickDir = cdDown
+                Command = emcCodeFoldExpand
+                Option = 1
+              end>
+          end
+        end
+      end
+    end
+  end
+  object Splitter2: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 5
+    Top = 393
+    Width = 902
+    Align = alBottom
+    AutoSnap = False
+    Beveled = True
+    ResizeAnchor = akBottom
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Height = 200
+    Top = 398
+    Width = 902
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 200
+    ClientWidth = 902
+    FullRepaint = False
+    TabOrder = 1
+    object PanelBottomTop: TPanel
+      Left = 0
+      Height = 74
+      Top = 0
+      Width = 902
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 74
+      ClientWidth = 902
+      FullRepaint = False
+      TabOrder = 0
+      object Label2UTF8: TLabel
+        Left = 8
+        Height = 16
+        Top = 27
+        Width = 98
+        Caption = 'Decoded UTF-8'
+        ParentColor = False
+      end
+      object PanelResultsTitle: TPanel
+        Left = 0
+        Height = 24
+        Top = 50
+        Width = 902
+        Align = alBottom
+        BevelOuter = bvNone
+        Caption = 'Conversion Results (double-click an error to show it in Rule Editor)'
+        ClientHeight = 24
+        ClientWidth = 902
+        FullRepaint = False
+        TabOrder = 4
+        object Bevel3: TBevel
+          Left = 0
+          Height = 2
+          Top = 0
+          Width = 902
+          Align = alTop
+        end
+      end
+      object CheckBoxSynchronousScroll: TCheckBox
+        Left = 9
+        Height = 18
+        Top = 4
+        Width = 241
+        Caption = 'Scroll Input and Output Synchronously'
+        Checked = True
+        State = cbChecked
+        TabOrder = 0
+      end
+      object CheckBoxSplitSubfields: TCheckBox
+        Left = 344
+        Height = 18
+        Top = 4
+        Width = 195
+        Caption = 'Split subfields to multiple lines'
+        OnChange = CheckBoxSplitSubfieldsChange
+        TabOrder = 1
+      end
+      object EditDecodedUTF8: TEdit
+        Left = 120
+        Height = 24
+        Top = 22
+        Width = 772
+        Anchors = [akTop, akLeft, akRight]
+        Font.Height = -11
+        Font.Name = 'Arial Unicode MS'
+        ParentFont = False
+        ReadOnly = True
+        TabOrder = 3
+      end
+      object CheckBoxUTF8Autodetect: TCheckBox
+        Left = 656
+        Height = 18
+        Top = 4
+        Width = 142
+        Caption = 'UTF-8 Autodetection'
+        Checked = True
+        OnChange = CheckBoxUTF8AutodetectChange
+        State = cbChecked
+        TabOrder = 2
+      end
+    end
+    inline SynEditResults: TSynEdit
+      Left = 0
+      Height = 108
+      Top = 74
+      Width = 902
+      Align = alClient
+      Font.Height = -13
+      Font.Name = 'Lucida Console'
+      Font.Pitch = fpFixed
+      Font.Quality = fqNonAntialiased
+      ParentColor = False
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+      OnDblClick = SynEditResultsDblClick
+      BookMarkOptions.Xoffset = -18
+      Gutter.AutoSize = False
+      Gutter.Visible = False
+      Gutter.Width = 0
+      Gutter.MouseActions = <      
+        item
+          ClickCount = ccAny
+          ClickDir = cdDown
+          Command = emcOnMainGutterClick
+        end      
+        item
+          Button = mbRight
+          Command = emcContextMenu
+        end>
+      RightGutter.Width = 0
+      RightGutter.MouseActions = <      
+        item
+          ClickCount = ccAny
+          ClickDir = cdDown
+          Command = emcOnMainGutterClick
+        end      
+        item
+          Button = mbRight
+          Command = emcContextMenu
+        end>
+      Keystrokes = <      
+        item
+          Command = ecUp
+          ShortCut = 38
+        end      
+        item
+          Command = ecSelUp
+          ShortCut = 8230
+        end      
+        item
+          Command = ecScrollUp
+          ShortCut = 16422
+        end      
+        item
+          Command = ecDown
+          ShortCut = 40
+        end      
+        item
+          Command = ecSelDown
+          ShortCut = 8232
+        end      
+        item
+          Command = ecScrollDown
+          ShortCut = 16424
+        end      
+        item
+          Command = ecLeft
+          ShortCut = 37
+        end      
+        item
+          Command = ecSelLeft
+          ShortCut = 8229
+        end      
+        item
+          Command = ecWordLeft
+          ShortCut = 16421
+        end      
+        item
+          Command = ecSelWordLeft
+          ShortCut = 24613
+        end      
+        item
+          Command = ecRight
+          ShortCut = 39
+        end      
+        item
+          Command = ecSelRight
+          ShortCut = 8231
+        end      
+        item
+          Command = ecWordRight
+          ShortCut = 16423
+        end      
+        item
+          Command = ecSelWordRight
+          ShortCut = 24615
+        end      
+        item
+          Command = ecPageDown
+          ShortCut = 34
+        end      
+        item
+          Command = ecSelPageDown
+          ShortCut = 8226
+        end      
+        item
+          Command = ecPageBottom
+          ShortCut = 16418
+        end      
+        item
+          Command = ecSelPageBottom
+          ShortCut = 24610
+        end      
+        item
+          Command = ecPageUp
+          ShortCut = 33
+        end      
+        item
+          Command = ecSelPageUp
+          ShortCut = 8225
+        end      
+        item
+          Command = ecPageTop
+          ShortCut = 16417
+        end      
+        item
+          Command = ecSelPageTop
+          ShortCut = 24609
+        end      
+        item
+          Command = ecLineStart
+          ShortCut = 36
+        end      
+        item
+          Command = ecSelLineStart
+          ShortCut = 8228
+        end      
+        item
+          Command = ecEditorTop
+          ShortCut = 16420
+        end      
+        item
+          Command = ecSelEditorTop
+          ShortCut = 24612
+        end      
+        item
+          Command = ecLineEnd
+          ShortCut = 35
+        end      
+        item
+          Command = ecSelLineEnd
+          ShortCut = 8227
+        end      
+        item
+          Command = ecEditorBottom
+          ShortCut = 16419
+        end      
+        item
+          Command = ecSelEditorBottom
+          ShortCut = 24611
+        end      
+        item
+          Command = ecToggleMode
+          ShortCut = 45
+        end      
+        item
+          Command = ecCopy
+          ShortCut = 16429
+        end      
+        item
+          Command = ecPaste
+          ShortCut = 8237
+        end      
+        item
+          Command = ecDeleteChar
+          ShortCut = 46
+        end      
+        item
+          Command = ecCut
+          ShortCut = 8238
+        end      
+        item
+          Command = ecDeleteLastChar
+          ShortCut = 8
+        end      
+        item
+          Command = ecDeleteLastChar
+          ShortCut = 8200
+        end      
+        item
+          Command = ecDeleteLastWord
+          ShortCut = 16392
+        end      
+        item
+          Command = ecUndo
+          ShortCut = 32776
+        end      
+        item
+          Command = ecRedo
+          ShortCut = 40968
+        end      
+        item
+          Command = ecLineBreak
+          ShortCut = 13
+        end      
+        item
+          Command = ecSelectAll
+          ShortCut = 16449
+        end      
+        item
+          Command = ecCopy
+          ShortCut = 16451
+        end      
+        item
+          Command = ecBlockIndent
+          ShortCut = 24649
+        end      
+        item
+          Command = ecLineBreak
+          ShortCut = 16461
+        end      
+        item
+          Command = ecInsertLine
+          ShortCut = 16462
+        end      
+        item
+          Command = ecDeleteWord
+          ShortCut = 16468
+        end      
+        item
+          Command = ecBlockUnindent
+          ShortCut = 24661
+        end      
+        item
+          Command = ecPaste
+          ShortCut = 16470
+        end      
+        item
+          Command = ecCut
+          ShortCut = 16472
+        end      
+        item
+          Command = ecDeleteLine
+          ShortCut = 16473
+        end      
+        item
+          Command = ecDeleteEOL
+          ShortCut = 24665
+        end      
+        item
+          Command = ecUndo
+          ShortCut = 16474
+        end      
+        item
+          Command = ecRedo
+          ShortCut = 24666
+        end      
+        item
+          Command = ecGotoMarker0
+          ShortCut = 16432
+        end      
+        item
+          Command = ecGotoMarker1
+          ShortCut = 16433
+        end      
+        item
+          Command = ecGotoMarker2
+          ShortCut = 16434
+        end      
+        item
+          Command = ecGotoMarker3
+          ShortCut = 16435
+        end      
+        item
+          Command = ecGotoMarker4
+          ShortCut = 16436
+        end      
+        item
+          Command = ecGotoMarker5
+          ShortCut = 16437
+        end      
+        item
+          Command = ecGotoMarker6
+          ShortCut = 16438
+        end      
+        item
+          Command = ecGotoMarker7
+          ShortCut = 16439
+        end      
+        item
+          Command = ecGotoMarker8
+          ShortCut = 16440
+        end      
+        item
+          Command = ecGotoMarker9
+          ShortCut = 16441
+        end      
+        item
+          Command = ecSetMarker0
+          ShortCut = 24624
+        end      
+        item
+          Command = ecSetMarker1
+          ShortCut = 24625
+        end      
+        item
+          Command = ecSetMarker2
+          ShortCut = 24626
+        end      
+        item
+          Command = ecSetMarker3
+          ShortCut = 24627
+        end      
+        item
+          Command = ecSetMarker4
+          ShortCut = 24628
+        end      
+        item
+          Command = ecSetMarker5
+          ShortCut = 24629
+        end      
+        item
+          Command = ecSetMarker6
+          ShortCut = 24630
+        end      
+        item
+          Command = ecSetMarker7
+          ShortCut = 24631
+        end      
+        item
+          Command = ecSetMarker8
+          ShortCut = 24632
+        end      
+        item
+          Command = ecSetMarker9
+          ShortCut = 24633
+        end      
+        item
+          Command = ecNormalSelect
+          ShortCut = 24654
+        end      
+        item
+          Command = ecColumnSelect
+          ShortCut = 24643
+        end      
+        item
+          Command = ecLineSelect
+          ShortCut = 24652
+        end      
+        item
+          Command = ecMatchBracket
+          ShortCut = 24642
+        end>
+      MouseActions = <      
+        item
+          ShiftMask = [ssShift, ssAlt]
+          ClickDir = cdDown
+          Command = emcStartSelections
+          MoveCaret = True
+        end      
+        item
+          Shift = [ssShift]
+          ShiftMask = [ssShift, ssAlt]
+          ClickDir = cdDown
+          Command = emcStartSelections
+          MoveCaret = True
+          Option = 1
+        end      
+        item
+          Shift = [ssAlt]
+          ShiftMask = [ssShift, ssAlt]
+          ClickDir = cdDown
+          Command = emcStartColumnSelections
+          MoveCaret = True
+        end      
+        item
+          Shift = [ssShift, ssAlt]
+          ShiftMask = [ssShift, ssAlt]
+          ClickDir = cdDown
+          Command = emcStartColumnSelections
+          MoveCaret = True
+          Option = 1
+        end      
+        item
+          Button = mbRight
+          Command = emcContextMenu
+        end      
+        item
+          ClickCount = ccDouble
+          ClickDir = cdDown
+          Command = emcSelectWord
+          MoveCaret = True
+        end      
+        item
+          ClickCount = ccTriple
+          ClickDir = cdDown
+          Command = emcSelectLine
+          MoveCaret = True
+        end      
+        item
+          ClickCount = ccQuad
+          ClickDir = cdDown
+          Command = emcSelectPara
+          MoveCaret = True
+        end      
+        item
+          Button = mbMiddle
+          ClickDir = cdDown
+          Command = emcPasteSelection
+          MoveCaret = True
+        end      
+        item
+          Shift = [ssCtrl]
+          ShiftMask = [ssShift, ssAlt, ssCtrl]
+          Command = emcMouseLink
+        end>
+      MouseTextActions = <>
+      MouseSelActions = <      
+        item
+          ClickDir = cdDown
+          Command = emcStartDragMove
+        end>
+      VisibleSpecialChars = [vscSpace, vscTabAtLast]
+      ReadOnly = True
+      RightEdge = 0
+      SelectedColor.BackPriority = 50
+      SelectedColor.ForePriority = 50
+      SelectedColor.FramePriority = 50
+      SelectedColor.BoldPriority = 50
+      SelectedColor.ItalicPriority = 50
+      SelectedColor.UnderlinePriority = 50
+      SelectedColor.StrikeOutPriority = 50
+      BracketHighlightStyle = sbhsBoth
+      BracketMatchColor.Background = clNone
+      BracketMatchColor.Foreground = clNone
+      BracketMatchColor.Style = [fsBold]
+      FoldedCodeColor.Background = clNone
+      FoldedCodeColor.Foreground = clGray
+      FoldedCodeColor.FrameColor = clGray
+      MouseLinkColor.Background = clNone
+      MouseLinkColor.Foreground = clBlue
+      LineHighlightColor.Background = clNone
+      LineHighlightColor.Foreground = clNone
+      inline TSynGutterPartList
+        object TSynGutterMarks
+          Width = 24
+          MouseActions = <>
+        end
+        object TSynGutterLineNumber
+          Width = 17
+          MouseActions = <>
+          MarkupInfo.Background = clBtnFace
+          MarkupInfo.Foreground = clNone
+          DigitCount = 2
+          ShowOnlyLineNumbersMultiplesOf = 1
+          ZeroStart = False
+          LeadingZeros = False
+        end
+        object TSynGutterChanges
+          Width = 4
+          MouseActions = <>
+          ModifiedColor = 59900
+          SavedColor = clGreen
+        end
+        object TSynGutterSeparator
+          Width = 2
+          MouseActions = <>
+          MarkupInfo.Background = clWhite
+          MarkupInfo.Foreground = clGray
+        end
+        object TSynGutterCodeFolding
+          Width = 0
+          MouseActions = <          
+            item
+              Button = mbRight
+              Command = emcCodeFoldContextMenu
+            end          
+            item
+              ShiftMask = [ssShift]
+              Button = mbMiddle
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcCodeFoldCollaps
+            end          
+            item
+              Shift = [ssShift]
+              ShiftMask = [ssShift]
+              Button = mbMiddle
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcCodeFoldCollaps
+              Option = 1
+            end          
+            item
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcNone
+            end>
+          MarkupInfo.Background = clNone
+          MarkupInfo.Foreground = clGray
+          MouseActionsExpanded = <          
+            item
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcCodeFoldCollaps
+            end>
+          MouseActionsCollapsed = <          
+            item
+              Shift = [ssCtrl]
+              ShiftMask = [ssCtrl]
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcCodeFoldExpand
+            end          
+            item
+              ShiftMask = [ssCtrl]
+              ClickCount = ccAny
+              ClickDir = cdDown
+              Command = emcCodeFoldExpand
+              Option = 1
+            end>
+        end
+      end
+    end
+    object StatusBar1: TStatusBar
+      Left = 0
+      Height = 18
+      Top = 182
+      Width = 902
+      Panels = <      
+        item
+          Width = 120
+        end      
+        item
+          Width = 120
+        end      
+        item
+          Width = 250
+        end      
+        item
+          Width = 80
+        end>
+      SimplePanel = False
+    end
+  end
+  object MainMenu1: TMainMenu
+    top = 56
+    object MenuItem1: TMenuItem
+      Caption = '&File'
+      object MenuItemOpenProject: TMenuItem
+        Caption = 'Open Project...'
+        ShortCut = 49231
+        OnClick = MenuItemOpenProjectClick
+      end
+      object MenuItemSaveProject: TMenuItem
+        Caption = 'Save Project...'
+        ShortCut = 49235
+        OnClick = MenuItemSaveProjectClick
+      end
+      object MenuItemOpenRecent: TMenuItem
+        Caption = 'Open Recent Project'
+        object MenuItemClearRecent: TMenuItem
+          Caption = '(Clear List)'
+          Enabled = False
+          OnClick = MenuItemClearRecentClick
+        end
+      end
+      object MenuItemSep1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItemInputFile: TMenuItem
+        Caption = '&Input File...'
+        ShortCut = 16463
+        OnClick = MenuItemInputFileClick
+      end
+      object MenuItemConversionINIFile: TMenuItem
+        Caption = '&Conversion INI File...'
+        OnClick = MenuItemConversionINIFileClick
+      end
+      object MenuItemUSEMARCONProgram: TMenuItem
+        Caption = '&USEMARCON Program...'
+        OnClick = MenuItemUSEMARCONProgramClick
+      end
+      object MenuItemOutputFile: TMenuItem
+        Caption = '&Output File...'
+        ShortCut = 16467
+        OnClick = MenuItemOutputFileClick
+      end
+      object MenuItemSep2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItemExport: TMenuItem
+        Caption = 'Export Records...'
+        OnClick = MenuItemExportClick
+      end
+      object MenuItemPrint: TMenuItem
+        Caption = '&Print'
+        object MenuItemPrintInput: TMenuItem
+          Caption = 'Input Record...'
+          ShortCut = 16464
+          OnClick = MenuItemPrintInputClick
+        end
+        object MenuItemPrintOutput: TMenuItem
+          Caption = 'Output Record...'
+          OnClick = MenuItemPrintOutputClick
+        end
+      end
+      object MenuItem6: TMenuItem
+        Caption = '-'
+      end
+      object MenuItemExit: TMenuItem
+        Caption = 'E&xit'
+        ShortCut = 16465
+        OnClick = MenuItemExitClick
+      end
+    end
+    object MenuItem4: TMenuItem
+      Caption = '&View'
+      object MenuItemFindPrevious: TMenuItem
+        Caption = 'Find Previous'
+        ShortCut = 8306
+        OnClick = MenuItemFindPreviousClick
+      end
+      object MenuItemFindNext: TMenuItem
+        Caption = 'Find Next'
+        ShortCut = 114
+        OnClick = MenuItemFindNextClick
+      end
+      object MenuItemNextError: TMenuItem
+        Caption = 'Next Error'
+        ShortCut = 115
+        OnClick = MenuItemNextErrorClick
+      end
+      object MenuItem3: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Record Font'
+        object MenuItemDefaultFont: TMenuItem
+          Caption = 'Default'
+          OnClick = MenuItemDefaultFontClick
+        end
+        object MenuItemCustomFont: TMenuItem
+          Caption = 'Custom...'
+          OnClick = MenuItemCustomFontClick
+        end
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = '&Tools'
+      object MenuItemEditRuleFile: TMenuItem
+        Caption = '&Edit Rule File...'
+        OnClick = MenuItemEditRuleFileClick
+      end
+      object MenuItemEditINIFile: TMenuItem
+        Caption = 'Edit INI File...'
+        OnClick = MenuItemEditINIFileClick
+      end
+      object MenuItemEditCharConv: TMenuItem
+        Caption = 'Edit Character Conversion File...'
+        OnClick = MenuItemEditCharConvClick
+      end
+      object MenuItemEditInputFormatCheckingFile: TMenuItem
+        Caption = 'Edit Input Format Checking File...'
+        OnClick = MenuItemEditInputFormatCheckingFileClick
+      end
+      object MenuItemEditInputFixedFieldListFile: TMenuItem
+        Caption = 'Edit Input Fixed Field List File...'
+        OnClick = MenuItemEditInputFixedFieldListFileClick
+      end
+      object MenuItemEditOutputFormatCheckingFile: TMenuItem
+        Caption = 'Edit Output Format Checking File...'
+        OnClick = MenuItemEditOutputFormatCheckingFileClick
+      end
+      object MenuItemEditOutputFixedFieldListFile: TMenuItem
+        Caption = 'Edit Output Fixed Field List File...'
+        OnClick = MenuItemEditOutputFixedFieldListFileClick
+      end
+      object MenuItemSep5: TMenuItem
+        Caption = '-'
+      end
+      object MenuItemRunConversion: TMenuItem
+        Caption = '&Run Conversion'
+        ShortCut = 16466
+        OnClick = BitBtnConvertClick
+      end
+      object MenuItemStopConversion: TMenuItem
+        Caption = '&Stop Conversion'
+        Enabled = False
+        ShortCut = 16497
+        OnClick = BitBtnStopClick
+      end
+    end
+    object MenuItemHelp: TMenuItem
+      Caption = '&Help'
+      object MenuItemAbout: TMenuItem
+        Caption = '&About...'
+        OnClick = MenuItemAboutClick
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    FilterIndex = 0
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    top = 80
+  end
+  object SaveDialog1: TSaveDialog
+    FilterIndex = 0
+    Options = [ofPathMustExist, ofEnableSizing, ofViewDetail]
+    top = 680
+  end
+  object TimerNext: TTimer
+    Enabled = False
+    OnTimer = TimerNextTimer
+    left = 80
+    top = 440
+  end
+  object TimerPrev: TTimer
+    Enabled = False
+    OnTimer = TimerPrevTimer
+    left = 80
+    top = 408
+  end
+  object OpenDialogProject: TOpenDialog
+    Title = 'Open existing profile'
+    DefaultExt = '.use'
+    Filter = 'Projects (*.use)|*.use|All File Types (*.*)|*.*'
+    FilterIndex = 0
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    top = 160
+  end
+  object SaveDialogProject: TSaveDialog
+    Title = 'Save profile as'
+    DefaultExt = '.use'
+    Filter = 'Projects (*.use)|*.use|All File Types (*.*)|*.*'
+    FilterIndex = 0
+    Options = [ofOverwritePrompt, ofPathMustExist, ofNoReadOnlyReturn, ofEnableSizing, ofViewDetail]
+    top = 136
+  end
+  object frReport1: TfrReport
+    Dataset = frUserDatasetRecord
+    InitialZoom = pzDefault
+    Options = []
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    StoreInForm = True
+    DataType = dtDataSet
+    Title = 'MARC Record'
+    OnGetValue = frReport1GetValue
+    left = 464
+    top = 312
+    ReportXML = '<?xml version="1.0" encoding="utf-8"?>'#10'<CONFIG>'#10'  <LazReport>'#10'    <Version Value="31"/>'#10'    <Title Value="MARC Record"/>'#10'    <Subject Value=""/>'#10'    <KeyWords Value=""/>'#10'    <Comments Value=""/>'#10'    <ReportCreateDate Value="2020-06-08 14:54:38"/>'#10'    <ReportLastChange Value="2020-06-08 14:54:38"/>'#10'    <ReportVersionBuild Value=""/>'#10'    <ReportVersionMajor Value=""/>'#10'    <ReportVersionMinor Value=""/>'#10'    <ReportVersionRelease Value=""/>'#10'    <ReportAutor Value=""/>'#10'    <Script Value=""/>'#10'    <Pages>'#10'      <PrintToDefault Value="False"/>'#10'      <DoublePass Value="True"/>'#10'      <SelectedPrinter Value="Default printer"/>'#10'      <PageCount Value="1"/>'#10'      <Page1>'#10'        <Name Value="Page1"/>'#10'        <ClassName Value="TfrPageReport"/>'#10'        <Visible Value="True"/>'#10'        <Width Value="2100"/>'#10'        <Height Value="2970"/>'#10'        <Script Value=""/>'#10'        <PgSize Value="9"/>'#10'        <Margins>'#10'          <left Value="0"/>'#10'          <Top Value="0"/>'#10'          <Right Value="0"/>'#10'          <Bottom Value="0"/>'#10'        </Margins>'#10'        <Orientation Value="poPortrait"/>'#10'        <UseMargins Value="True"/>'#10'        <PrintToPrevPage Value="False"/>'#10'        <ColCount Value="0"/>'#10'        <ColGap Value="0"/>'#10'        <LayoutOrder Value="loColumns"/>'#10'        <Object1>'#10'          <Name Value="PageHeader1"/>'#10'          <ClassName Value="TfrBandView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtBand"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="0"/>'#10'            <Top Value="16"/>'#10'            <Width Value="752"/>'#10'            <Height Value="40"/>'#10'          </Size>'#10'          <Flags Value="48"/>'#10'          <Data>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Frames>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <BandType Value="btPageHeader"/>'#10'          <Condition Value=""/>'#10'          <DatasetStr Value=""/>'#10'          <Child Value=""/>'#10'        </Object1>'#10'        <Object2>'#10'          <Name Value="PageFooter1"/>'#10'          <ClassName Value="TfrBandView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtBand"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="0"/>'#10'            <Top Value="208"/>'#10'            <Width Value="752"/>'#10'            <Height Value="40"/>'#10'          </Size>'#10'          <Flags Value="48"/>'#10'          <Data>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Frames>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <BandType Value="btPageFooter"/>'#10'          <Condition Value=""/>'#10'          <DatasetStr Value=""/>'#10'          <Child Value=""/>'#10'        </Object2>'#10'        <Object3>'#10'          <Name Value="MasterData1"/>'#10'          <ClassName Value="TfrBandView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtBand"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="0"/>'#10'            <Top Value="64"/>'#10'            <Width Value="752"/>'#10'            <Height Value="40"/>'#10'          </Size>'#10'          <Flags Value="48"/>'#10'          <Data>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Frames>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <BandType Value="btMasterData"/>'#10'          <Condition Value=""/>'#10'          <DatasetStr Value="frUserDatasetRecord"/>'#10'          <Child Value=""/>'#10'        </Object3>'#10'        <Object4>'#10'          <Name Value="DetailData1"/>'#10'          <ClassName Value="TfrBandView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtBand"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="0"/>'#10'            <Top Value="120"/>'#10'            <Width Value="752"/>'#10'            <Height Value="24"/>'#10'          </Size>'#10'          <Flags Value="49"/>'#10'          <Data>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Frames>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <BandType Value="btDetailData"/>'#10'          <Condition Value=""/>'#10'          <DatasetStr Value="frUserDatasetRecordLine"/>'#10'          <Child Value=""/>'#10'        </Object4>'#10'        <Object5>'#10'          <Name Value="Memo6"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="20"/>'#10'            <Top Value="24"/>'#10'            <Width Value="556"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="[FileName]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Arial"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object5>'#10'        <Object6>'#10'          <Name Value="Memo1"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="20"/>'#10'            <Top Value="76"/>'#10'            <Width Value="712"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="Record [RecNr]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Arial"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object6>'#10'        <Object7>'#10'          <Name Value="Memo2"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="84"/>'#10'            <Top Value="124"/>'#10'            <Width Value="644"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="[FieldData]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Lucida Console"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object7>'#10'        <Object8>'#10'          <Name Value="Memo3"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="12"/>'#10'            <Top Value="220"/>'#10'            <Width Value="372"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="Page [PAGE#] of [TOTALPAGES]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Arial"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object8>'#10'        <Object9>'#10'          <Name Value="Memo4"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="20"/>'#10'            <Top Value="124"/>'#10'            <Width Value="36"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="[FieldCode]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Lucida Console"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object9>'#10'        <Object10>'#10'          <Name Value="Memo5"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="60"/>'#10'            <Top Value="124"/>'#10'            <Width Value="20"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="556"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="[Indicators]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Lucida Console"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taLeftJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object10>'#10'        <Object11>'#10'          <Name Value="Memo7"/>'#10'          <ClassName Value="TfrMemoView"/>'#10'          <Visible Value="True"/>'#10'          <Typ Value="gtMemo"/>'#10'          <StreamMode Value="0"/>'#10'          <Size>'#10'            <Left Value="612"/>'#10'            <Top Value="24"/>'#10'            <Width Value="120"/>'#10'            <Height Value="18"/>'#10'          </Size>'#10'          <Flags Value="3"/>'#10'          <FillColor Value="clNone"/>'#10'          <Frames>'#10'            <FrameColor Value="clBlack"/>'#10'            <FrameStyle Value="frsSolid"/>'#10'            <FrameWidth Value="1"/>'#10'            <FrameBorders Value=""/>'#10'            <Restrictions Value=""/>'#10'          </Frames>'#10'          <Data>'#10'            <Format Value="44"/>'#10'            <FormatStr Value=""/>'#10'            <Memo Value="[DATE] [TIME]&#xA;"/>'#10'            <Script Value=""/>'#10'            <GapX Value="0"/>'#10'            <GapY Value="0"/>'#10'            <OnClick Value=""/>'#10'            <OnMouseEnter Value=""/>'#10'            <OnMouseLeave Value=""/>'#10'            <DetailReport Value=""/>'#10'            <ParagraphGap Value="0"/>'#10'            <LineSpacing Value="2"/>'#10'          </Data>'#10'          <Tag Value=""/>'#10'          <FURLInfo Value=""/>'#10'          <Font>'#10'            <Name Value="Arial"/>'#10'            <Size Value="10"/>'#10'            <Color Value="clBlack"/>'#10'            <Charset Value="0"/>'#10'            <Style Value=""/>'#10'          </Font>'#10'          <Highlight>'#10'            <FontStyle Value="2"/>'#10'            <FontColor Value="clBlack"/>'#10'            <FillColor Value="clWhite"/>'#10'            <HighlightStr Value=""/>'#10'          </Highlight>'#10'          <Alignment Value="taRightJustify"/>'#10'          <Layout Value="tlTop"/>'#10'          <Angle Value="0"/>'#10'          <Justify Value="False"/>'#10'          <Cursor Value="0"/>'#10'        </Object11>'#10'        <ObjectCount Value="11"/>'#10'      </Page1>'#10'      <FVal>'#10'        <Count Value="5"/>'#10'        <Objects1>'#10'          <Typ Value="0"/>'#10'          <OtherKind Value="0"/>'#10'          <Dataset Value=""/>'#10'          <Field Value=""/>'#10'          <Item Value="RecNr"/>'#10'        </Objects1>'#10'        <Objects2>'#10'          <Typ Value="0"/>'#10'          <OtherKind Value="0"/>'#10'          <Dataset Value=""/>'#10'          <Field Value=""/>'#10'          <Item Value="FileName"/>'#10'        </Objects2>'#10'        <Objects3>'#10'          <Typ Value="0"/>'#10'          <OtherKind Value="0"/>'#10'          <Dataset Value=""/>'#10'          <Field Value=""/>'#10'          <Item Value="FieldCode"/>'#10'        </Objects3>'#10'        <Objects4>'#10'          <Typ Value="0"/>'#10'          <OtherKind Value="0"/>'#10'          <Dataset Value=""/>'#10'          <Field Value=""/>'#10'          <Item Value="FieldData"/>'#10'        </Objects4>'#10'        <Objects5>'#10'          <Typ Value="0"/>'#10'          <OtherKind Value="0"/>'#10'          <Dataset Value=""/>'#10'          <Field Value=""/>'#10'          <Item Value="Indicators"/>'#10'        </Objects5>'#10'      </FVal>'#10'      <ParentVars Value="File&#xA; FileName&#xA;Record&#xA; RecNr&#xA;MARC&#xA; FieldCode&#xA; Indicators&#xA; FieldData&#xA;&#xA;"/>'#10'    </Pages>'#10'    <DetailReports>'#10'      <Count Value="0"/>'#10'    </DetailReports>'#10'  </LazReport>'#10'</CONFIG>'#10
+  end
+  object frUserDatasetRecord: TfrUserDataset
+    RangeEndCount = 1
+    OnCheckEOF = frUserDatasetRecordCheckEOF
+    OnFirst = frUserDatasetRecordFirst
+    OnNext = frUserDatasetRecordNext
+    left = 504
+    top = 312
+  end
+  object frTextExport1: TfrTextExport
+    ShowExportParamsDlg = False
+    left = 584
+    top = 312
+  end
+  object frHTMExport1: TfrHTMExport
+    left = 624
+    top = 312
+  end
+  object frCSVExport1: TfrCSVExport
+    left = 664
+    top = 312
+  end
+  object frDesigner1: TfrDesigner
+    left = 704
+    top = 312
+  end
+  object frUserDatasetRecordLine: TfrUserDataset
+    RangeEndCount = 1
+    OnCheckEOF = frUserDatasetRecordLineCheckEOF
+    OnFirst = frUserDatasetRecordLineFirst
+    OnNext = frUserDatasetRecordLineNext
+    left = 544
+    top = 312
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    Options = [fdFixedPitchOnly, fdNoStyleSel]
+    left = 315
+    top = 87
+  end
+  object Config: TXMLConfig
+    StartEmpty = False
+    RootName = 'config'
+    left = 101
+    top = 136
+  end
+end

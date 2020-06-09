@@ -1,0 +1,128 @@
+object FormConvertSelectionToTemp: TFormConvertSelectionToTemp
+  Left = 660
+  Height = 411
+  Top = 207
+  Width = 613
+  Caption = 'FormConvertSelectionToTemp'
+  ClientHeight = 411
+  ClientWidth = 613
+  Position = poOwnerFormCenter
+  LCLVersion = '2.0.8.0'
+  object PanelOptions: TPanel
+    Left = 0
+    Height = 82
+    Top = 0
+    Width = 613
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 82
+    ClientWidth = 613
+    TabOrder = 0
+    object LabelTempField: TLabel
+      Left = 11
+      Height = 16
+      Top = 12
+      Width = 97
+      Caption = 'Temporary Field'
+      ParentColor = False
+    end
+    object EditTempField: TEdit
+      Left = 120
+      Height = 22
+      Top = 8
+      Width = 80
+      OnChange = EditTempFieldChange
+      TabOrder = 0
+      Text = 'A01'
+    end
+    object CheckBoxForceNew: TCheckBox
+      Left = 11
+      Height = 18
+      Top = 40
+      Width = 189
+      Caption = 'Force Creation of a New Field'
+      Checked = True
+      OnChange = CheckBoxForceNewChange
+      State = cbChecked
+      TabOrder = 2
+    end
+    object LabelTargetField: TLabel
+      Left = 232
+      Height = 16
+      Top = 12
+      Width = 71
+      Caption = 'Target Field'
+      ParentColor = False
+    end
+    object EditTargetField: TEdit
+      Left = 328
+      Height = 22
+      Top = 8
+      Width = 80
+      OnChange = EditTargetFieldChange
+      TabOrder = 1
+    end
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Height = 329
+    Top = 82
+    Width = 613
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 329
+    ClientWidth = 613
+    TabOrder = 1
+    object PanelButtons: TPanel
+      Left = 0
+      Height = 50
+      Top = 279
+      Width = 613
+      Align = alBottom
+      BevelOuter = bvNone
+      ClientHeight = 50
+      ClientWidth = 613
+      TabOrder = 1
+      object ButtonCancel: TButton
+        Left = 525
+        Height = 25
+        Top = 15
+        Width = 75
+        Anchors = [akTop, akRight]
+        Cancel = True
+        Caption = 'Cancel'
+        ModalResult = 2
+        TabOrder = 1
+      end
+      object ButtonOK: TButton
+        Left = 437
+        Height = 25
+        Top = 15
+        Width = 75
+        Anchors = [akTop, akRight]
+        Caption = 'OK'
+        Default = True
+        ModalResult = 1
+        TabOrder = 0
+      end
+    end
+    object MemoResult: TMemo
+      Left = 0
+      Height = 279
+      Top = 0
+      Width = 613
+      Align = alClient
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Courier'
+      Font.Pitch = fpFixed
+      Font.Quality = fqDraft
+      Lines.Strings = (      )
+      ParentFont = False
+      ScrollBars = ssAutoBoth
+      TabOrder = 0
+      WordWrap = False
+    end
+  end
+end

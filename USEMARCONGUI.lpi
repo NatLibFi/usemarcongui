@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="USEMARCON GUI"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="3"/>
+      <MinorVersionNr Value="13"/>
+      <RevisionNr Value="2"/>
+      <StringTable ProductVersion="0.0.0.0"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazreport"/>
+        <MinVersion Minor="9" Release="5" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="USEMARCONGUI.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="MainUnit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ruleeditorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRuleEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="RuleEditorUnit"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="inieditorunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormINIEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="INIEditorUnit"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="exportunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormExport"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ExportUnit"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="questiondialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QuestionForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="QuestionDialog"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="searchreplaceunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSearchReplace"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SearchReplaceUnit"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="recordconverterunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RecordConverterUnit"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="int64list.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Int64List"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="bufferedfile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BufferedFile"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="convertselectiontotempunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormConvertSelectionToTemp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ConvertSelectionToTempUnit"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="SynHighlighterRule.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="SynHighlighterMARC.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit12>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(LazarusDir)\components\synedit;$(LazarusDir)\components\lazreport\source"/>
+      <UnitOutputDirectory Value="obj"/>
+      <SrcPath Value="$(LazarusDir)\lcl;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType);$(LazarusDir)\components\synedit;$(LazarusDir)\components\lazreport"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
